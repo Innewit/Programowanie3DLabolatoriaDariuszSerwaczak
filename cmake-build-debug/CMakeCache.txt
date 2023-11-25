@@ -527,6 +527,15 @@ Triangle_IS_TOP_LEVEL:STATIC=OFF
 Triangle_SOURCE_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle
 
 //Value Computed by CMake
+Uniforms_BINARY_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Uniforms
+
+//Value Computed by CMake
+Uniforms_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Uniforms_SOURCE_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Uniforms
+
+//Value Computed by CMake
 XeEngine_BINARY_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/XeEngine
 
 //Value Computed by CMake
@@ -699,7 +708,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

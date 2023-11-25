@@ -3,7 +3,6 @@
 -- GLM: Version 0.9.9.9
 -- Build spdlog: 1.12.0
 -- Build type: Debug
-Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Uniforms does not exists.
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/PVM does not exists.
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Pyramid does not exists.
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Resizing does not exists.
