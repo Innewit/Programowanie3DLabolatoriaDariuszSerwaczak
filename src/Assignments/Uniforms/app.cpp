@@ -38,19 +38,13 @@ void SimpleShapeApplication::init() {
     glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(float), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 0, u_buffer_handle);
 
-
-    ////////////
-    // Define uniform parameters
+    // Define uniform parameters for pixel color and strength
     float strength = 0.8f; // replace with appropriate value
     float color[4] = {0.8f, 0.5f, 0.9f, 1.0f}; // replace with appropriate values
 
-    // Load strength
+    // Load strength and color
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
-
-    // Load color
     glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), 4 * sizeof(float), color);
-    ////////////
-
 
     // Creating indices buffer
     GLuint i_buffer_handle;
