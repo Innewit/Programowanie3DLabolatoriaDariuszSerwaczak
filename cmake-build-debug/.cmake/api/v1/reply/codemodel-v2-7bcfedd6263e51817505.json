@@ -369,63 +369,63 @@
 				{
 					"directoryIndex" : 12,
 					"id" : "Colors::@5062fdf58fc14a2873b4",
-					"jsonFile" : "target-Colors-Debug-08dff103df9b9147353e.json",
+					"jsonFile" : "target-Colors-Debug-b972aec8519309438624.json",
 					"name" : "Colors",
 					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 11,
 					"id" : "House::@a57c938c6b5fe80120df",
-					"jsonFile" : "target-House-Debug-5287cf1f01fd00db530c.json",
+					"jsonFile" : "target-House-Debug-54b5f6ee5f1286168247.json",
 					"name" : "House",
 					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 10,
 					"id" : "Triangle::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-Triangle-Debug-4dcadd36210d843ae773.json",
+					"jsonFile" : "target-Triangle-Debug-524673dc39e436979121.json",
 					"name" : "Triangle",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "application::@63f4a4cc0e32de8c050b",
-					"jsonFile" : "target-application-Debug-a5b5500db6e3bff0bfc0.json",
+					"jsonFile" : "target-application-Debug-fe46668398074aac95c4.json",
 					"name" : "application",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "engine::@57eeced369f002faad1a",
-					"jsonFile" : "target-engine-Debug-86c3ea330650b9df7a6c.json",
+					"jsonFile" : "target-engine-Debug-6895a3b8b716e3d06e6e.json",
 					"name" : "engine",
 					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "glad::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-glad-Debug-cf2059cb3e98c169239d.json",
+					"jsonFile" : "target-glad-Debug-59e84a8f05f5a21a308c.json",
 					"name" : "glad",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@fa9f4482d3a2b070f206",
-					"jsonFile" : "target-glfw-Debug-32acae2c1da73059e4ba.json",
+					"jsonFile" : "target-glfw-Debug-47d8fd033a4d8c8ec2f8.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 7,
 					"id" : "objreader::@fe69842f7a07b275738d",
-					"jsonFile" : "target-objreader-Debug-ce9d850d81e6e06f7b62.json",
+					"jsonFile" : "target-objreader-Debug-304a0e95dbcaa7a952a7.json",
 					"name" : "objreader",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "spdlog::@eb35cfce7893ccfeff1e",
-					"jsonFile" : "target-spdlog-Debug-2002c295f2503629cfbc.json",
+					"jsonFile" : "target-spdlog-Debug-6b79c1b66bc1d2a189af.json",
 					"name" : "spdlog",
 					"projectIndex" : 3
 				},
@@ -446,7 +446,7 @@
 				{
 					"directoryIndex" : 8,
 					"id" : "xe-engine::@6de0204676fa90e31894",
-					"jsonFile" : "target-xe-engine-Debug-df69b97dda6c13690b70.json",
+					"jsonFile" : "target-xe-engine-Debug-0c71e1472fce69ff10bc.json",
 					"name" : "xe-engine",
 					"projectIndex" : 6
 				}
@@ -456,8 +456,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug",
-		"source" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby"
+		"build" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug",
+		"source" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby"
 	},
 	"version" : 
 	{

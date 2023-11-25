@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/ObjectReader/libobjreader.a"
+			"path" : "src/Application/libapplication.a"
 		}
 	],
 	"backtrace" : 1,
@@ -12,13 +12,12 @@
 		"commands" : 
 		[
 			"add_library",
-			"target_link_libraries",
 			"add_compile_definitions",
 			"include_directories"
 		],
 		"files" : 
 		[
-			"src/ObjectReader/CMakeLists.txt",
+			"src/Application/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -33,55 +32,49 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
-				"file" : 0,
-				"line" : 9,
-				"parent" : 0
-			},
-			{
 				"file" : 1
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 1,
 				"line" : 32,
-				"parent" : 3
+				"parent" : 2
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 1,
 				"line" : 33,
-				"parent" : 3
+				"parent" : 2
 			},
 			{
-				"command" : 2,
+				"command" : 1,
 				"file" : 1,
 				"line" : 5,
-				"parent" : 3
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 2
 			},
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 19,
-				"parent" : 3
-			},
-			{
-				"command" : 3,
-				"file" : 1,
 				"line" : 16,
-				"parent" : 3
+				"parent" : 2
 			},
 			{
-				"command" : 3,
+				"command" : 2,
 				"file" : 1,
 				"line" : 17,
-				"parent" : 3
+				"parent" : 2
 			},
 			{
-				"command" : 3,
+				"command" : 2,
 				"file" : 1,
 				"line" : 40,
-				"parent" : 3
+				"parent" : 2
 			}
 		]
 	},
@@ -97,51 +90,43 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 4,
+					"backtrace" : 3,
 					"define" : "MAJOR=4"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"define" : "MINOR=6"
 				},
 				{
+					"backtrace" : 5,
+					"define" : "ROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\""
+				},
+				{
 					"backtrace" : 6,
-					"define" : "ROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby\""
-				},
-				{
-					"backtrace" : 2,
-					"define" : "SPDLOG_COMPILED_LIB"
-				},
-				{
-					"backtrace" : 7,
 					"define" : "XE_DEBUG"
 				}
 			],
 			"includes" : 
 			[
 				{
+					"backtrace" : 7,
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty"
+				},
+				{
 					"backtrace" : 8,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/3rdParty"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src"
-				},
-				{
-					"backtrace" : 10,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include"
 				},
 				{
 					"backtrace" : 1,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include"
 				},
 				{
 					"backtrace" : 1,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glm-src"
-				},
-				{
-					"backtrace" : 2,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src"
 				}
 			],
 			"language" : "CXX",
@@ -155,7 +140,9 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				2,
+				4
 			]
 		}
 	],
@@ -168,19 +155,15 @@
 		{
 			"backtrace" : 1,
 			"id" : "glfw::@fa9f4482d3a2b070f206"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "spdlog::@eb35cfce7893ccfeff1e"
 		}
 	],
-	"id" : "objreader::@fe69842f7a07b275738d",
-	"name" : "objreader",
-	"nameOnDisk" : "libobjreader.a",
+	"id" : "application::@63f4a4cc0e32de8c050b",
+	"name" : "application",
+	"nameOnDisk" : "libapplication.a",
 	"paths" : 
 	{
-		"build" : "src/ObjectReader",
-		"source" : "src/ObjectReader"
+		"build" : "src/Application",
+		"source" : "src/Application"
 	},
 	"sourceGroups" : 
 	[
@@ -188,7 +171,9 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				2,
+				4
 			]
 		},
 		{
@@ -196,14 +181,15 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				3,
+				5
 			]
 		},
 		{
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				3
+				6
 			]
 		}
 	],
@@ -212,17 +198,34 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/ObjectReader/obj_reader.cpp",
+			"path" : "src/Application/application.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/ObjectReader/obj_reader.h",
+			"path" : "src/Application/application.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/ObjectReader/sMesh.h",
+			"compileGroupIndex" : 0,
+			"path" : "src/Application/utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Application/utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Application/shader_source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Application/shader_source.h",
 			"sourceGroupIndex" : 1
 		},
 		{

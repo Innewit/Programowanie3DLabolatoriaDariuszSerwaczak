@@ -172,7 +172,7 @@
 				},
 				{
 					"backtrace" : 7,
-					"define" : "ROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby\""
+					"define" : "ROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\""
 				},
 				{
 					"backtrace" : 8,
@@ -199,27 +199,27 @@
 			[
 				{
 					"backtrace" : 12,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/3rdParty"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src"
 				},
 				{
 					"backtrace" : 14,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include"
 				},
 				{
 					"backtrace" : 15,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src"
 				},
 				{
 					"backtrace" : 16,
-					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src"
+					"path" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src"
 				}
 			],
 			"language" : "C",

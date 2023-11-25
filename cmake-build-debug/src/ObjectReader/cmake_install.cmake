@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/ObjectReader
+# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

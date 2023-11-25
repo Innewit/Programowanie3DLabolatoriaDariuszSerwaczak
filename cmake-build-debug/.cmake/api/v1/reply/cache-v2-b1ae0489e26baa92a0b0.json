@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug"
+			"value" : "c:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1603,7 +1603,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/Assignments/Colors"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Colors"
 		},
 		{
 			"name" : "Colors_IS_TOP_LEVEL",
@@ -1627,7 +1627,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Assignments/Colors"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors"
 		},
 		{
 			"name" : "DINPUT_H_FOUND",
@@ -1651,7 +1651,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/Engine"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Engine"
 		},
 		{
 			"name" : "Engine_IS_TOP_LEVEL",
@@ -1675,7 +1675,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Engine"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine"
 		},
 		{
 			"name" : "FETCHCONTENT_BASE_DIR",
@@ -1687,7 +1687,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1847,7 +1847,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build"
 		},
 		{
 			"name" : "GLFW_BUILD_Assignments",
@@ -1979,7 +1979,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -2003,7 +2003,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug"
 		},
 		{
 			"name" : "Graphics3DCode_IS_TOP_LEVEL",
@@ -2027,7 +2027,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby"
 		},
 		{
 			"name" : "House_BINARY_DIR",
@@ -2039,7 +2039,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/Assignments/House"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/House"
 		},
 		{
 			"name" : "House_IS_TOP_LEVEL",
@@ -2063,7 +2063,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Assignments/House"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House"
 		},
 		{
 			"name" : "OBJReader_BINARY_DIR",
@@ -2075,7 +2075,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/ObjectReader"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/ObjectReader"
 		},
 		{
 			"name" : "OBJReader_IS_TOP_LEVEL",
@@ -2099,7 +2099,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/ObjectReader"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader"
 		},
 		{
 			"name" : "OPENGL_gl_LIBRARY",
@@ -2455,7 +2455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/Assignments/Triangle"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Triangle"
 		},
 		{
 			"name" : "Triangle_IS_TOP_LEVEL",
@@ -2479,7 +2479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Assignments/Triangle"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle"
 		},
 		{
 			"name" : "XINPUT_H_FOUND",
@@ -2503,7 +2503,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/XeEngine"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/XeEngine"
 		},
 		{
 			"name" : "XeEngine_IS_TOP_LEVEL",
@@ -2527,7 +2527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/XeEngine"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
@@ -2563,7 +2563,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/src/Application"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Application"
 		},
 		{
 			"name" : "application_IS_TOP_LEVEL",
@@ -2587,7 +2587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Application"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application"
 		},
 		{
 			"name" : "glm_BINARY_DIR",
@@ -2599,7 +2599,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glm-build"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-build"
 		},
 		{
 			"name" : "glm_IS_TOP_LEVEL",
@@ -2623,7 +2623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glm-src"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src"
 		},
 		{
 			"name" : "spdlog_BINARY_DIR",
@@ -2635,7 +2635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-build"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-build"
 		},
 		{
 			"name" : "spdlog_IS_TOP_LEVEL",
@@ -2659,7 +2659,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src"
+			"value" : "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src"
 		}
 	],
 	"kind" : "cache",

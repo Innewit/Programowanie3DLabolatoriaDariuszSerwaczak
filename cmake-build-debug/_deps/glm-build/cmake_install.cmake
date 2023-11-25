@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
+# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glm-build/glm/cmake_install.cmake")
+  include("C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-build/glm/cmake_install.cmake")
 
 endif()
 

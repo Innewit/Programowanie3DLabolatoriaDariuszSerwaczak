@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt" files)
+file(READ "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

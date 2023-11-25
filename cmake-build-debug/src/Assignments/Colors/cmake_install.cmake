@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLaby/src/Assignments/Colors
+# Install script for directory: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
