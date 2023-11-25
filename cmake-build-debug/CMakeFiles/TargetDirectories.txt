@@ -88,3 +88,10 @@ C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cm
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Colors/CMakeFiles/install.dir
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Colors/CMakeFiles/install/local.dir
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Colors/CMakeFiles/install/strip.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/Indices.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/edit_cache.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/rebuild_cache.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/list_install_components.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install/local.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices/CMakeFiles/install/strip.dir

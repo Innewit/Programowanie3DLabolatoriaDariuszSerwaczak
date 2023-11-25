@@ -31,6 +31,13 @@ void SimpleShapeApplication::init() {
          0.0f,  0.75f, 0.0f, 0.0f, 0.0f, 1.0f   // Top of the roof
     };
 
+    // Creating indices buffer
+    GLuint i_buffer_handle;
+    std::vector<GLushort> indices_buffer = {0, 1, 2, 4, 3};
+    glGenBuffers(1, &i_buffer_handle);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices_buffer.size() * sizeof(GLushort), indices_buffer.data(), GL_STATIC_DRAW);
+
     // Generating the buffer and loading the vertex data into it.
     GLuint v_buffer_handle;
     glGenBuffers(1, &v_buffer_handle);
@@ -42,6 +49,7 @@ void SimpleShapeApplication::init() {
     // the state of all vertex buffers needed for rendering
     glGenVertexArrays(1, &vao_);
     glBindVertexArray(vao_);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
 
     // This indicates that the data for attribute 0 (position) should be read from a vertex buffer.
@@ -75,8 +83,8 @@ void SimpleShapeApplication::frame() {
     // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
     // Draw the square (base of the house)
-    glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+    glDrawElements(GL_TRIANGLE_FAN, 4, GL_UNSIGNED_SHORT, nullptr);
     // Draw the triangle (roof of the house)
-    glDrawArrays(GL_TRIANGLES, 2, 3);
+    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_SHORT, (void*)(3 * sizeof(GLushort)));
     glBindVertexArray(0);
 }

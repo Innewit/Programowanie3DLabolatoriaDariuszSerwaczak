@@ -56,8 +56,6 @@ build CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj: C_COMPIL
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include
   OBJECT_DIR = CMakeFiles\glad.dir
   OBJECT_FILE_DIR = CMakeFiles\glad.dir\src\3rdParty\glad\glad_4_6\glad\src
-  TARGET_COMPILE_PDB = CMakeFiles\glad.dir\
-  TARGET_PDB = ""
 
 
 
@@ -235,8 +233,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_u
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -245,8 +241,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -255,8 +249,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -265,8 +257,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_u
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -275,8 +265,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -285,8 +273,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -295,8 +281,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -305,8 +289,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -315,8 +297,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -325,8 +305,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -335,8 +313,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -345,8 +321,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -355,8 +329,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -365,8 +337,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -375,8 +345,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -385,8 +353,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -395,8 +361,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -405,8 +369,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -415,8 +377,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -425,8 +385,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DUNICODE -DWINVER=0x0501 -DXE_DEBUG -D_GLFW_WIN32 -D_UNICODE
@@ -435,8 +393,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -451,9 +407,8 @@ build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Debug _deps
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = _deps\glfw-build\src\libglfw3.a
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -695,8 +650,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: CXX_COMPILER_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -705,8 +658,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: CXX_COM
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -715,8 +666,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -725,8 +674,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: CXX_COMPI
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/async.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -735,8 +682,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: CXX_COMPILER__
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/cfg.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -745,8 +690,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: CXX_COMPILER__sp
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj: CXX_COMPILER__spdlog_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/src/bundled_fmtlib_format.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -755,8 +698,6 @@ build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
 
 
 # =============================================================================
@@ -771,9 +712,8 @@ build _deps/spdlog-build/libspdlogd.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Debug _
   OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\spdlog-build\CMakeFiles\spdlog.dir\spdlog.pdb
   TARGET_FILE = _deps\spdlog-build\libspdlogd.a
-  TARGET_PDB = _deps\spdlog-build\libspdlogd.pdb
+  TARGET_PDB = spdlogd.a.dbg
 
 
 #############################################
@@ -861,8 +801,6 @@ build src/Application/CMakeFiles/application.dir/application.cpp.obj: CXX_COMPIL
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
   OBJECT_FILE_DIR = src\Application\CMakeFiles\application.dir
-  TARGET_COMPILE_PDB = src\Application\CMakeFiles\application.dir\application.pdb
-  TARGET_PDB = src\Application\libapplication.pdb
 
 build src/Application/CMakeFiles/application.dir/utils.cpp.obj: CXX_COMPILER__application_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/utils.cpp || cmake_object_order_depends_target_application
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -871,8 +809,6 @@ build src/Application/CMakeFiles/application.dir/utils.cpp.obj: CXX_COMPILER__ap
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
   OBJECT_FILE_DIR = src\Application\CMakeFiles\application.dir
-  TARGET_COMPILE_PDB = src\Application\CMakeFiles\application.dir\application.pdb
-  TARGET_PDB = src\Application\libapplication.pdb
 
 build src/Application/CMakeFiles/application.dir/shader_source.cpp.obj: CXX_COMPILER__application_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/shader_source.cpp || cmake_object_order_depends_target_application
   DEFINES = -DMAJOR=4 -DMINOR=6 -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -881,8 +817,6 @@ build src/Application/CMakeFiles/application.dir/shader_source.cpp.obj: CXX_COMP
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
   OBJECT_FILE_DIR = src\Application\CMakeFiles\application.dir
-  TARGET_COMPILE_PDB = src\Application\CMakeFiles\application.dir\application.pdb
-  TARGET_PDB = src\Application\libapplication.pdb
 
 
 # =============================================================================
@@ -897,9 +831,8 @@ build src/Application/libapplication.a: CXX_STATIC_LIBRARY_LINKER__application_D
   OBJECT_DIR = src\Application\CMakeFiles\application.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Application\CMakeFiles\application.dir\application.pdb
   TARGET_FILE = src\Application\libapplication.a
-  TARGET_PDB = src\Application\libapplication.pdb
+  TARGET_PDB = application.a.dbg
 
 
 #############################################
@@ -987,8 +920,6 @@ build src/ObjectReader/CMakeFiles/objreader.dir/obj_reader.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\ObjectReader\CMakeFiles\objreader.dir
   OBJECT_FILE_DIR = src\ObjectReader\CMakeFiles\objreader.dir
-  TARGET_COMPILE_PDB = src\ObjectReader\CMakeFiles\objreader.dir\objreader.pdb
-  TARGET_PDB = src\ObjectReader\libobjreader.pdb
 
 
 # =============================================================================
@@ -1003,9 +934,8 @@ build src/ObjectReader/libobjreader.a: CXX_STATIC_LIBRARY_LINKER__objreader_Debu
   OBJECT_DIR = src\ObjectReader\CMakeFiles\objreader.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\ObjectReader\CMakeFiles\objreader.dir\objreader.pdb
   TARGET_FILE = src\ObjectReader\libobjreader.a
-  TARGET_PDB = src\ObjectReader\libobjreader.pdb
+  TARGET_PDB = objreader.a.dbg
 
 
 #############################################
@@ -1093,8 +1023,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/ColorMaterial.cpp.obj: CXX_COMPILER_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/Scene.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1103,8 +1031,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Scene.cpp.obj: CXX_COMPILER__xe-engi
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/Mesh.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1113,8 +1039,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Mesh.cpp.obj: CXX_COMPILER__xe-engin
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/mesh_loader.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1123,8 +1047,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/mesh_loader.cpp.obj: CXX_COMPILER__x
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/Node.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1133,8 +1055,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/Node.cpp.obj: CXX_COMPILER__xe-engin
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/PhongMaterial.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1143,8 +1063,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/PhongMaterial.cpp.obj: CXX_COMPILER_
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/stb_image.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1153,8 +1071,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/stb_image.cpp.obj: CXX_COMPILER__xe-
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 build src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.obj: CXX_COMPILER__xe-engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/utils.cpp || cmake_object_order_depends_target_xe-engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine\" -DPROJECT_NAME=\"XeEngine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DSPDLOG_COMPILED_LIB -DXE_DEBUG
@@ -1163,8 +1079,6 @@ build src/XeEngine/CMakeFiles/xe-engine.dir/utils.cpp.obj: CXX_COMPILER__xe-engi
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/spdlog-src/include
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   OBJECT_FILE_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
 
 
 # =============================================================================
@@ -1179,9 +1093,8 @@ build src/XeEngine/libxe-engine.a: CXX_STATIC_LIBRARY_LINKER__xe-engine_Debug CM
   OBJECT_DIR = src\XeEngine\CMakeFiles\xe-engine.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\XeEngine\CMakeFiles\xe-engine.dir\xe-engine.pdb
   TARGET_FILE = src\XeEngine\libxe-engine.a
-  TARGET_PDB = src\XeEngine\libxe-engine.pdb
+  TARGET_PDB = xe-engine.a.dbg
 
 
 #############################################
@@ -1269,8 +1182,6 @@ build src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj: CXX_COMPILER__engine_unscan
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
-  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = src\Engine\libengine.pdb
 
 build src/Engine/CMakeFiles/engine.dir/Material.cpp.obj: CXX_COMPILER__engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/Material.cpp || cmake_object_order_depends_target_engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -1279,8 +1190,6 @@ build src/Engine/CMakeFiles/engine.dir/Material.cpp.obj: CXX_COMPILER__engine_un
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
   OBJECT_FILE_DIR = src\Engine\CMakeFiles\engine.dir
-  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
-  TARGET_PDB = src\Engine\libengine.pdb
 
 
 # =============================================================================
@@ -1295,9 +1204,8 @@ build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles
   OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Engine\CMakeFiles\engine.dir\engine.pdb
   TARGET_FILE = src\Engine\libengine.a
-  TARGET_PDB = src\Engine\libengine.pdb
+  TARGET_PDB = engine.a.dbg
 
 
 #############################################
@@ -1385,8 +1293,6 @@ build src/Assignments/Triangle/CMakeFiles/Triangle.dir/main.cpp.obj: CXX_COMPILE
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
   OBJECT_FILE_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
-  TARGET_COMPILE_PDB = src\Assignments\Triangle\CMakeFiles\Triangle.dir\
-  TARGET_PDB = src\Assignments\Triangle\Triangle.pdb
 
 build src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj: CXX_COMPILER__Triangle_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle/app.cpp || cmake_object_order_depends_target_Triangle
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle\" -DPROJECT_NAME=\"Triangle\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -1395,8 +1301,6 @@ build src/Assignments/Triangle/CMakeFiles/Triangle.dir/app.cpp.obj: CXX_COMPILER
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
   OBJECT_FILE_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
-  TARGET_COMPILE_PDB = src\Assignments\Triangle\CMakeFiles\Triangle.dir\
-  TARGET_PDB = src\Assignments\Triangle\Triangle.pdb
 
 
 # =============================================================================
@@ -1412,10 +1316,9 @@ build src/Assignments/Triangle/Triangle.exe: CXX_EXECUTABLE_LINKER__Triangle_Deb
   OBJECT_DIR = src\Assignments\Triangle\CMakeFiles\Triangle.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Assignments\Triangle\CMakeFiles\Triangle.dir\
   TARGET_FILE = src\Assignments\Triangle\Triangle.exe
   TARGET_IMPLIB = src\Assignments\Triangle\libTriangle.dll.a
-  TARGET_PDB = src\Assignments\Triangle\Triangle.pdb
+  TARGET_PDB = Triangle.exe.dbg
 
 
 #############################################
@@ -1503,8 +1406,6 @@ build src/Assignments/House/CMakeFiles/House.dir/main.cpp.obj: CXX_COMPILER__Hou
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\House\CMakeFiles\House.dir
   OBJECT_FILE_DIR = src\Assignments\House\CMakeFiles\House.dir
-  TARGET_COMPILE_PDB = src\Assignments\House\CMakeFiles\House.dir\
-  TARGET_PDB = src\Assignments\House\House.pdb
 
 build src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj: CXX_COMPILER__House_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House/app.cpp || cmake_object_order_depends_target_House
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House\" -DPROJECT_NAME=\"House\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -1513,8 +1414,6 @@ build src/Assignments/House/CMakeFiles/House.dir/app.cpp.obj: CXX_COMPILER__Hous
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\House\CMakeFiles\House.dir
   OBJECT_FILE_DIR = src\Assignments\House\CMakeFiles\House.dir
-  TARGET_COMPILE_PDB = src\Assignments\House\CMakeFiles\House.dir\
-  TARGET_PDB = src\Assignments\House\House.pdb
 
 
 # =============================================================================
@@ -1530,10 +1429,9 @@ build src/Assignments/House/House.exe: CXX_EXECUTABLE_LINKER__House_Debug CMakeF
   OBJECT_DIR = src\Assignments\House\CMakeFiles\House.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Assignments\House\CMakeFiles\House.dir\
   TARGET_FILE = src\Assignments\House\House.exe
   TARGET_IMPLIB = src\Assignments\House\libHouse.dll.a
-  TARGET_PDB = src\Assignments\House\House.pdb
+  TARGET_PDB = House.exe.dbg
 
 
 #############################################
@@ -1621,8 +1519,6 @@ build src/Assignments/Colors/CMakeFiles/Colors.dir/main.cpp.obj: CXX_COMPILER__C
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\Colors\CMakeFiles\Colors.dir
   OBJECT_FILE_DIR = src\Assignments\Colors\CMakeFiles\Colors.dir
-  TARGET_COMPILE_PDB = src\Assignments\Colors\CMakeFiles\Colors.dir\
-  TARGET_PDB = src\Assignments\Colors\Colors.pdb
 
 build src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.obj: CXX_COMPILER__Colors_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors/app.cpp || cmake_object_order_depends_target_Colors
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors\" -DPROJECT_NAME=\"Colors\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -1631,8 +1527,6 @@ build src/Assignments/Colors/CMakeFiles/Colors.dir/app.cpp.obj: CXX_COMPILER__Co
   INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
   OBJECT_DIR = src\Assignments\Colors\CMakeFiles\Colors.dir
   OBJECT_FILE_DIR = src\Assignments\Colors\CMakeFiles\Colors.dir
-  TARGET_COMPILE_PDB = src\Assignments\Colors\CMakeFiles\Colors.dir\
-  TARGET_PDB = src\Assignments\Colors\Colors.pdb
 
 
 # =============================================================================
@@ -1648,10 +1542,9 @@ build src/Assignments/Colors/Colors.exe: CXX_EXECUTABLE_LINKER__Colors_Debug CMa
   OBJECT_DIR = src\Assignments\Colors\CMakeFiles\Colors.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = src\Assignments\Colors\CMakeFiles\Colors.dir\
   TARGET_FILE = src\Assignments\Colors\Colors.exe
   TARGET_IMPLIB = src\Assignments\Colors\libColors.dll.a
-  TARGET_PDB = src\Assignments\Colors\Colors.pdb
+  TARGET_PDB = Colors.exe.dbg
 
 
 #############################################
@@ -1719,6 +1612,119 @@ build src/Assignments/Colors/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/A
 build src/Assignments/Colors/install/strip: phony src/Assignments/Colors/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Indices
+
+
+#############################################
+# Order-only phony target for Indices
+
+build cmake_object_order_depends_target_Indices: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw
+
+build src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj: CXX_COMPILER__Indices_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices/main.cpp || cmake_object_order_depends_target_Indices
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices\" -DPROJECT_NAME=\"Indices\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
+  DEP_FILE = src\Assignments\Indices\CMakeFiles\Indices.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
+  OBJECT_DIR = src\Assignments\Indices\CMakeFiles\Indices.dir
+  OBJECT_FILE_DIR = src\Assignments\Indices\CMakeFiles\Indices.dir
+
+build src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj: CXX_COMPILER__Indices_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices/app.cpp || cmake_object_order_depends_target_Indices
+  DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices\" -DPROJECT_NAME=\"Indices\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
+  DEP_FILE = src\Assignments\Indices\CMakeFiles\Indices.dir\app.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/3rdParty/glad/glad_4_6/glad/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-src/include -IC:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-src
+  OBJECT_DIR = src\Assignments\Indices\CMakeFiles\Indices.dir
+  OBJECT_FILE_DIR = src\Assignments\Indices\CMakeFiles\Indices.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Indices
+
+
+#############################################
+# Link the executable src\Assignments\Indices\Indices.exe
+
+build src/Assignments/Indices/Indices.exe: CXX_EXECUTABLE_LINKER__Indices_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj src/Assignments/Indices/CMakeFiles/Indices.dir/main.cpp.obj src/Assignments/Indices/CMakeFiles/Indices.dir/app.cpp.obj | _deps/glfw-build/src/libglfw3.a src/Application/libapplication.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a glad src/Application/libapplication.a
+  FLAGS = -g
+  LINK_LIBRARIES = -lopengl32  _deps/glfw-build/src/libglfw3.a  src/Application/libapplication.a  -lopengl32  _deps/glfw-build/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = src\Assignments\Indices\CMakeFiles\Indices.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = src\Assignments\Indices\Indices.exe
+  TARGET_IMPLIB = src\Assignments\Indices\libIndices.dll.a
+  TARGET_PDB = Indices.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build src/Assignments/Indices/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug\src\Assignments\Indices && "D:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src/Assignments/Indices/edit_cache: phony src/Assignments/Indices/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src/Assignments/Indices/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug\src\Assignments\Indices && "D:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby -BC:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/rebuild_cache: phony src/Assignments/Indices/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build src/Assignments/Indices/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build src/Assignments/Indices/CMakeFiles/install.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug\src\Assignments\Indices && "D:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install: phony src/Assignments/Indices/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build src/Assignments/Indices/CMakeFiles/install/local.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug\src\Assignments\Indices && "D:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install/local: phony src/Assignments/Indices/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build src/Assignments/Indices/CMakeFiles/install/strip.util: CUSTOM_COMMAND src/Assignments/Indices/all
+  COMMAND = cmd.exe /C "cd /D C:\Users\serwa\OneDrive\Pulpit\Programowanie3DLabolatoria\Programowanie3DLaby\cmake-build-debug\src\Assignments\Indices && "D:\Apps\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build src/Assignments/Indices/install/strip: phony src/Assignments/Indices/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build Colors: phony src/Assignments/Colors/Colors.exe
@@ -1728,6 +1734,10 @@ build Colors.exe: phony src/Assignments/Colors/Colors.exe
 build House: phony src/Assignments/House/House.exe
 
 build House.exe: phony src/Assignments/House/House.exe
+
+build Indices: phony src/Assignments/Indices/Indices.exe
+
+build Indices.exe: phony src/Assignments/Indices/Indices.exe
 
 build Triangle: phony src/Assignments/Triangle/Triangle.exe
 
@@ -1769,7 +1779,7 @@ build xe-engine: phony src/XeEngine/libxe-engine.a
 #############################################
 # Folder: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug
 
-build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all src/Assignments/Colors/all
+build all: phony glad _deps/glfw-build/all _deps/glm-build/all _deps/spdlog-build/all src/Application/all src/ObjectReader/all src/XeEngine/all src/Engine/all src/Assignments/Triangle/all src/Assignments/House/all src/Assignments/Colors/all src/Assignments/Indices/all
 
 # =============================================================================
 
@@ -1830,6 +1840,13 @@ build src/Assignments/House/all: phony src/Assignments/House/House.exe
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Indices
+
+build src/Assignments/Indices/all: phony src/Assignments/Indices/Indices.exe
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Triangle
 
 build src/Assignments/Triangle/all: phony src/Assignments/Triangle/Triangle.exe
@@ -1862,14 +1879,14 @@ build src/XeEngine/all: phony src/XeEngine/libxe-engine.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ExternalProject.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindGit.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenGL.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-Determine-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ExternalProject.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindGit.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenGL.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineRCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCCompiler.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystem.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestRCCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-FindBinUtils.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ExternalProject.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindGit.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenGL.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-Determine-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
+build C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Application/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Colors/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/House/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Indices/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/Triangle/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/ObjectReader/CMakeLists.txt C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/XeEngine/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakePackageConfigHelpers.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/ExternalProject.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindGit.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindOpenGL.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/FindThreads.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/GNUInstallDirs.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake D$:/Apps/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.26/Modules/WriteBasicConfigVersionFile.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
 
 
 #############################################
