@@ -556,6 +556,9 @@ application_SOURCE_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabo
 //Value Computed by CMake
 glm_BINARY_DIR:STATIC=C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glm-build
 
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=glm_DIR-NOTFOUND
+
 //Value Computed by CMake
 glm_IS_TOP_LEVEL:STATIC=OFF
 

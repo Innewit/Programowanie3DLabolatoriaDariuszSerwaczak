@@ -17,6 +17,6 @@ Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Pro
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/PBR does not exists.
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/MultipleLights does not exists.
 Warning: directory C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Assignments/NormalMaps does not exists.
--- Configuring done (4.6s)
+-- Configuring done (4.2s)
 -- Generating done (0.1s)
 -- Build files have been written to: C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug

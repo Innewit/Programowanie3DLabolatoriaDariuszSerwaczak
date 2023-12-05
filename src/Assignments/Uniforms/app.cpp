@@ -6,7 +6,9 @@
 
 #include <iostream>
 #include <vector>
-#include <tuple>
+#include <glm/glm.hpp>
+#include <glm/gtc/constants.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 #include "Application/utils.h"
 
@@ -45,6 +47,28 @@ void SimpleShapeApplication::init() {
     // Load strength and color
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
     glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), 4 * sizeof(float), color);
+
+    // Create transformation buffer
+    GLuint ubo;
+    glGenBuffers(1, &ubo);
+    glBindBuffer(GL_UNIFORM_BUFFER, ubo);
+    glBufferData(GL_UNIFORM_BUFFER, 48, NULL, GL_STATIC_DRAW); // 48 bytes
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, ubo);
+
+    // Load transformations to buffer
+    float theta = 1.0*glm::pi<float>()/6.0f;
+    auto cs = std::cos(theta);
+    auto ss = std::sin(theta);
+    glm::mat2 rot{cs,ss,-ss,cs};
+    glm::vec2 trans{0.0,  -0.25};
+    glm::vec2 scale{0.5, 0.5};
+
+    glBindBuffer(GL_UNIFORM_BUFFER, ubo);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::vec2), glm::value_ptr(scale));
+    glBufferSubData(GL_UNIFORM_BUFFER, 8, sizeof(glm::vec2), glm::value_ptr(trans));
+    glBufferSubData(GL_UNIFORM_BUFFER, 16, sizeof(glm::vec2), glm::value_ptr(rot[0]));
+    glBufferSubData(GL_UNIFORM_BUFFER, 32, sizeof(glm::vec2), glm::value_ptr(rot[1]));
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     // Creating indices buffer
     GLuint i_buffer_handle;
