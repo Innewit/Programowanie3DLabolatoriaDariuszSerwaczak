@@ -1,10 +1,15 @@
-#version 420
+#version 460
 
 in vec3 vertexColor;
 
 out vec4 FragColor;
 
-layout(std140, binding = 0) uniform Modifier {
+#if defined(__APPLE__)
+    layout(std140, binding=1) uniform Modifier
+#else
+    layout(std140) uniform Modifier
+#endif
+{
  float strength;
  vec3  color;
 };

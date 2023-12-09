@@ -70,6 +70,15 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 32, sizeof(glm::vec2), glm::value_ptr(rot[1]));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
+    #if __APPLE__
+        // Get the location of the uniform block
+        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+
+        // Set the binding point for the uniform block
+        GLuint bindingPoint = 1;
+        glUniformBlockBinding(program, blockIndex, bindingPoint);
+    #endif
+
     // Creating indices buffer
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 4, 3};
