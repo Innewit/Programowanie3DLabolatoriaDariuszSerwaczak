@@ -983,7 +983,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "15"
+			"value" : "16"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2024,6 +2024,42 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework"
+		},
+		{
+			"name" : "PVM_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/PVM"
+		},
+		{
+			"name" : "PVM_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "PVM_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/PVM"
 		},
 		{
 			"name" : "SPDLOG_BUILD_ALL",

@@ -407,6 +407,9 @@
 		},
 		{
 			"path" : "src/Assignments/Uniforms/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/PVM/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

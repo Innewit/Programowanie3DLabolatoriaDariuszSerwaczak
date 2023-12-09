@@ -409,6 +409,15 @@ OPENGL_gl_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.s
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
 
+//Value Computed by CMake
+PVM_BINARY_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/PVM
+
+//Value Computed by CMake
+PVM_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+PVM_SOURCE_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/PVM
+
 //Build all artifacts
 SPDLOG_BUILD_ALL:BOOL=OFF
 
@@ -672,7 +681,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=16
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
