@@ -16,6 +16,6 @@ Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolat
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/PBR does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/MultipleLights does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/NormalMaps does not exists.
--- Configuring done (34.5s)
+-- Configuring done (3.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug
