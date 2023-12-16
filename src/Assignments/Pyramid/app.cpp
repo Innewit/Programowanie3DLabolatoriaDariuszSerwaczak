@@ -27,11 +27,13 @@ void SimpleShapeApplication::init() {
 
     // A vector containing the x,y,z vertex coordinates for the square (base of the house) and the triangle (roof of the house).
     std::vector<GLfloat> vertices = {
-        -0.5f, -0.25f, 0.0f, 0.9f, 0.4f, 0.3f,  // Bottom left corner of the square
-         0.5f, -0.25f, 0.0f, 0.6f, 0.9f, 0.3f,  // Bottom right corner of the square
-         0.5f,  0.25f, 0.0f, 0.6f, 0.4f, 0.9f,  // Top right corner of the square
-        -0.5f,  0.25f, 0.0f, 0.9f, 0.4f, 0.3f,  // Top left corner of the square
-         0.0f,  0.75f, 0.0f, 0.6f, 0.4f, 0.7f   // Top of the roof
+         0, 1, -0.5,            0.0f, 1.0f, 0.7f,  // Top of the pyramid
+
+         -0.5, 0, 0,            0.6f, 0.4f, 0.7f,  // Bottom left corner of the front wall
+         0.5,  0, 0,            0.3f, 0.3f, 0.0f,   // Bottom right corner of the front wall
+
+         0.5, 0, -1,             0.1f, 0.8f, 0.2f,  // Bottom right corner of left wall
+         -0.5, 0, -1,            1.0f, 0.5f, 0.2f,  // Bottom left corner of the back wall
     };
 
     // Creating uniform buffer
@@ -60,9 +62,9 @@ void SimpleShapeApplication::init() {
     glm::mat4 Model = glm::mat4(1.0f); // Initialize to identity
 
     // View matrix
-    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f, 2.5f);
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-    glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
+    glm::vec3 cameraPos   = glm::vec3(0.0f, 5.0f, -0.5f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, -0.5f);
+    glm::vec3 upVector    = glm::vec3(0.0f, 0.0f, 1.0f);
     glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
 
     // Projection matrix
@@ -92,7 +94,7 @@ void SimpleShapeApplication::init() {
 
     // Creating indices buffer
     GLuint i_buffer_handle;
-    std::vector<GLushort> indices_buffer = {0, 1, 2, 4, 3};
+    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1};
     glGenBuffers(1, &i_buffer_handle);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices_buffer.size() * sizeof(GLushort), indices_buffer.data(), GL_STATIC_DRAW);
@@ -141,9 +143,9 @@ void SimpleShapeApplication::init() {
 void SimpleShapeApplication::frame() {
     // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
-    // Draw the square (base of the house)
-    glDrawElements(GL_TRIANGLE_FAN, 4, GL_UNSIGNED_SHORT, nullptr);
-    // Draw the triangle (roof of the house)
-    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_SHORT, (void*)(3 * sizeof(GLushort)));
+    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_CULL_FACE);
+    // Draw pyramid
+    glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_SHORT, nullptr);
     glBindVertexArray(0);
 }

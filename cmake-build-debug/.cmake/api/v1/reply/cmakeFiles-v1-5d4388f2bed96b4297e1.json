@@ -410,6 +410,9 @@
 		},
 		{
 			"path" : "src/Assignments/PVM/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/Pyramid/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

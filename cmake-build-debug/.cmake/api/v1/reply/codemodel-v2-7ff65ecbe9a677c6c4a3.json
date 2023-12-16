@@ -20,7 +20,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -32,7 +33,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -42,7 +43,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-e6669abfab56bb965fa0.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-a20c0d3d1471b4f4e27c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -52,13 +53,13 @@
 					"source" : "cmake-build-debug/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-a0cb711b8ecf45e6748e.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-c8590606ee5d26c5c130.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -68,8 +69,8 @@
 					"source" : "cmake-build-debug/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						9,
-						13
+						10,
+						14
 					]
 				},
 				{
@@ -110,7 +111,7 @@
 					"source" : "cmake-build-debug/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -125,7 +126,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -140,7 +141,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -155,7 +156,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -170,7 +171,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -185,7 +186,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -245,7 +246,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -261,6 +262,21 @@
 					"targetIndexes" : 
 					[
 						3
+					]
+				},
+				{
+					"build" : "src/Assignments/Pyramid",
+					"jsonFile" : "directory-src.Assignments.Pyramid-Debug-79f00e53cd187cb70801.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "src/Assignments/Pyramid",
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -282,7 +298,8 @@
 						10,
 						11,
 						12,
-						13
+						13,
+						14
 					],
 					"directoryIndexes" : 
 					[
@@ -291,7 +308,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -304,9 +321,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9,
-						12,
-						13
+						10,
+						13,
+						14
 					]
 				},
 				{
@@ -327,7 +344,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -339,7 +356,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -351,7 +368,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -363,7 +380,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -375,7 +392,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -387,7 +404,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -435,7 +452,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -448,6 +465,18 @@
 					"targetIndexes" : 
 					[
 						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Pyramid",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -480,6 +509,13 @@
 					"jsonFile" : "target-PVM-Debug-1542ea7fb606f353ba96.json",
 					"name" : "PVM",
 					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "Pyramid::@ea055d38d21e054cdebf",
+					"jsonFile" : "target-Pyramid-Debug-e485aadca6aa9b50f7bc.json",
+					"name" : "Pyramid",
+					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 10,
