@@ -30,7 +30,7 @@ void SimpleShapeApplication::init() {
          0, 1, -0.5,          0.0f, 1.0f, 0.7f,  // Top of the pyramid
 
          -0.5, 0, 0,          0.6f, 0.4f, 0.7f,  // Bottom left corner of the front wall
-         0.5,  0, 0,          0.3f, 0.3f, 0.0f,   // Bottom right corner of the front wall
+         0.5,  0, 0,          0.3f, 0.3f, 0.8f,   // Bottom right corner of the front wall
 
          0.5, 0, -1,          0.1f, 0.8f, 0.2f,  // Bottom right corner of left wall
          -0.5, 0, -1,         1.0f, 0.5f, 0.2f,  // Bottom left corner of the back wall

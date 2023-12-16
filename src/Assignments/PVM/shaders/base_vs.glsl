@@ -15,5 +15,6 @@ layout(location = 1) in vec3 a_vertex_color;
 out vec3 vertexColor;
 
 void main() {
+    vertexColor = a_vertex_color;
     gl_Position =  PVM * a_vertex_position;
 }
