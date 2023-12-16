@@ -9,11 +9,9 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 
 #include "Application/utils.h"
-
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
 
 void SimpleShapeApplication::init() {
     // A utility function that reads the shader sources, compiles them and creates the program object
@@ -51,42 +49,45 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
     glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), 4 * sizeof(float), color);
 
-    // Create PVM transformations
-    glm::mat4 model = glm::mat4(1.0f);
-
-    // Example camera position, target, and up vector
-    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f); // Move the camera back along the z-axis for 3D
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-    glm::vec3 upVector = glm::vec3(0.0f, 1.0f, 0.0f);
-
-    // Set up default values for view matrix (lookAt is still used for consistency)
-    glm::mat4 view = glm::lookAt(cameraPos, cameraTarget, upVector);
-
-    // Set up a perspective projection for a 3D scene
-    float fov = glm::radians(45.0f);
-    float aspectRatio = 1.0f;
-    float nearPlane = 0.1f; // Near clipping plane
-    float farPlane = 100.0f; // Far clipping plane
-
-    // Set up default values for perspective projection matrix
-    glm::mat4 projection = glm::perspective(fov, aspectRatio, nearPlane, farPlane);
-
-    // Combine view and projection matrices with the model matrix
-    glm::mat4 PVM = projection * view * model;
-
-    // Get the index of the uniform block "Transformations"
-    GLuint uboIndex = glGetUniformBlockIndex(program, "Transformations");
-
-    // Generate the buffer and bind it to the GL_UNIFORM_BUFFER target
+    // Create transformation buffer
     GLuint ubo;
     glGenBuffers(1, &ubo);
     glBindBuffer(GL_UNIFORM_BUFFER, ubo);
+    glBufferData(GL_UNIFORM_BUFFER, 64, NULL, GL_STATIC_DRAW); // 48 bytes
+    glBindBufferBase(GL_UNIFORM_BUFFER, 1, ubo);
 
-    // Upload the PVM matrix to the buffer
-    glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), glm::value_ptr(PVM), GL_STATIC_DRAW);
+    // Load transformations to buffer
+    glm::mat4 Model = glm::mat4(1.0f); // Initialize to identity
 
-    // Bind the buffer to the binding point
-    glBindBufferBase(GL_UNIFORM_BUFFER, uboIndex, ubo);
+    // View matrix
+    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f, 3.0f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+    glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
+    glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
+
+    // Projection matrix
+    float fov = glm::radians(45.0f); // Field of View
+    float aspect = 1.0f; // Aspect ratio
+    float nearClip = 0.1f; // Near clipping plane
+    float farClip = 100.0f; // Far clipping plane
+    glm::mat4 Projection = glm::perspective(fov, aspect, nearClip, farClip);
+
+    // Compose the PVM matrix
+    glm::mat4 PVM = Projection * View * Model;
+
+    glBindBuffer(GL_UNIFORM_BUFFER, ubo);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
+
+
+    #if __APPLE__
+        // Get the location of the uniform block
+        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+
+        // Set the binding point for the uniform block
+        GLuint bindingPoint = 1;
+        glUniformBlockBinding(program, blockIndex, bindingPoint);
+    #endif
 
     // Creating indices buffer
     GLuint i_buffer_handle;
@@ -94,6 +95,8 @@ void SimpleShapeApplication::init() {
     glGenBuffers(1, &i_buffer_handle);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices_buffer.size() * sizeof(GLushort), indices_buffer.data(), GL_STATIC_DRAW);
+
+    //TODO Czemu błąd występuje w tym miejscu???
 
     // Generating the buffer and loading the vertex data into it.
     GLuint v_buffer_handle;
