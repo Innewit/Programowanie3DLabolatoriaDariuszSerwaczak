@@ -60,7 +60,7 @@ void SimpleShapeApplication::init() {
     glm::mat4 Model = glm::mat4(1.0f); // Initialize to identity
 
     // View matrix
-    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f, 3.0f);
+    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f, 2.5f);
     glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
     glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
