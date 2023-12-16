@@ -75,6 +75,7 @@ void SimpleShapeApplication::init() {
     // Compose the PVM matrix
     glm::mat4 PVM = Projection * View * Model;
 
+    // Load data
     glBindBuffer(GL_UNIFORM_BUFFER, ubo);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
