@@ -143,6 +143,7 @@ void SimpleShapeApplication::init() {
 // 1. Podstawa
 // 2. Znikajace sciany po wlaczeniu GL_CULL_FACE (podstawa i tylne)
 
+
 //This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame() {
     // Binding the VAO will setup all the required vertex buffers.
