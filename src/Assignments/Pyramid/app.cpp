@@ -62,14 +62,14 @@ void SimpleShapeApplication::init() {
     glm::mat4 Model = glm::mat4(1.0f); // Initialize to identity
 
     // View matrix
-    glm::vec3 cameraPos   = glm::vec3(0.0f, 5.0f, -0.5f);
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, -0.5f);
-    glm::vec3 upVector    = glm::vec3(0.0f, 0.0f, 1.0f);
+    glm::vec3 cameraPos   = glm::vec3(2.5f, -1.5f, 1.5f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.5f, -0.5f);
+    glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
 
     // Projection matrix
     float fov = glm::radians(45.0f); // Field of View
-    float aspect = 1.0f; // Aspect ratio
+    float aspect = 3024.0f/1964.0f; // Aspect ratio
     float nearClip = 0.1f; // Near clipping plane
     float farClip = 100.0f; // Far clipping plane
     glm::mat4 Projection = glm::perspective(fov, aspect, nearClip, farClip);
@@ -139,13 +139,18 @@ void SimpleShapeApplication::init() {
     glUseProgram(program);
 }
 
+//TODO
+// 1. Podstawa
+// 2. Znikajace sciany po wlaczeniu GL_CULL_FACE (podstawa i tylne)
+
 //This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame() {
     // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
     glEnable(GL_DEPTH_TEST);
-    glEnable(GL_CULL_FACE);
+    //glEnable(GL_CULL_FACE);
     // Draw pyramid
     glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_SHORT, nullptr);
+    glDrawElements(GL_QUADS, 4, GL_UNSIGNED_SHORT, (void*)(12 * sizeof(GLushort)));
     glBindVertexArray(0);
 }

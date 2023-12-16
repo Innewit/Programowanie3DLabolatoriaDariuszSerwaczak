@@ -1,6 +1,6 @@
 #version 460
 
-in vec3 vertexColor;
+flat in vec3 vertexColor;
 
 out vec4 FragColor;
 

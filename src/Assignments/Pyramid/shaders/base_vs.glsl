@@ -12,7 +12,7 @@ layout(location = 1) in vec3 a_vertex_color;
     mat4 PVM;
 };
 
-out vec3 vertexColor;
+flat out vec3 vertexColor;
 
 void main() {
     vertexColor = a_vertex_color;
