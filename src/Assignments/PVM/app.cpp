@@ -53,7 +53,7 @@ void SimpleShapeApplication::init() {
     GLuint ubo;
     glGenBuffers(1, &ubo);
     glBindBuffer(GL_UNIFORM_BUFFER, ubo);
-    glBufferData(GL_UNIFORM_BUFFER, 64, NULL, GL_STATIC_DRAW); // 48 bytes
+    glBufferData(GL_UNIFORM_BUFFER, 64, NULL, GL_STATIC_DRAW); // buffor PVM 64 bytes
     glBindBufferBase(GL_UNIFORM_BUFFER, 1, ubo);
 
     // Load transformations to buffer
