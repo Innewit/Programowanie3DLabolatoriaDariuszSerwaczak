@@ -15,5 +15,8 @@ out vec4 FragColor;
 };
 
 void main() {
-    FragColor = vec4(vertexColor * strength * color, 1.0f);
+    // Create a random noise
+    vec3 rand_noise = vec3(float(gl_PrimitiveID) + 1) / 2;
+
+    FragColor = vec4(vertexColor * strength * color * rand_noise, 1.0f);
 }

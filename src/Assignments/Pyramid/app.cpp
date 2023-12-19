@@ -30,7 +30,7 @@ void SimpleShapeApplication::init() {
          0, 1, -0.5,          0.0f, 1.0f, 0.7f,  // Top of the pyramid
 
          -0.5, 0, 0,          0.6f, 0.4f, 0.7f,  // Bottom left corner of the front wall
-         0.5,  0, 0,          0.3f, 0.3f, 0.8f,   // Bottom right corner of the front wall
+         0.5,  0, 0,          0.5f, 0.4f, 8.0f,   // Bottom right corner of the front wall
 
          0.5, 0, -1,          0.1f, 0.8f, 0.2f,  // Bottom right corner of left wall
          -0.5, 0, -1,         1.0f, 0.5f, 0.2f,  // Bottom left corner of the back wall
@@ -45,7 +45,7 @@ void SimpleShapeApplication::init() {
 
     // Define uniform parameters for pixel color and strength
     float strength = 0.8f; // replace with appropriate value
-    float color[4] = {0.8f, 0.5f, 0.9f, 1.0f}; // replace with appropriate values
+    float color[4] = {0.8f, 0.8f, 0.9f, 1.0f}; // replace with appropriate values
 
     // Load strength and color
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
@@ -62,7 +62,8 @@ void SimpleShapeApplication::init() {
     glm::mat4 Model = glm::mat4(1.0f); // Initialize to identity
 
     // View matrix
-    glm::vec3 cameraPos   = glm::vec3(2.5f, -1.5f, 1.5f);
+    glm::vec3 cameraPos   = glm::vec3(-4.5f, -1.5f, 2.5f); // The view from the bottom
+    //glm::vec3 cameraPos   = glm::vec3(-1.0f, 5.5f, 1.0f); // The view from the top
     glm::vec3 cameraTarget = glm::vec3(0.0f, 0.5f, -0.5f);
     glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
     glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
@@ -94,7 +95,7 @@ void SimpleShapeApplication::init() {
 
     // Creating indices buffer
     GLuint i_buffer_handle;
-    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1};
+    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
     glGenBuffers(1, &i_buffer_handle);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices_buffer.size() * sizeof(GLushort), indices_buffer.data(), GL_STATIC_DRAW);
@@ -139,19 +140,14 @@ void SimpleShapeApplication::init() {
     glUseProgram(program);
 }
 
-//TODO
-// 1. Podstawa
-// 2. Znikajace sciany po wlaczeniu GL_CULL_FACE (podstawa i tylne)
-
-
 //This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame() {
     // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
     glEnable(GL_DEPTH_TEST);
-    //glEnable(GL_CULL_FACE);
+    glEnable(GL_CULL_FACE);
+
     // Draw pyramid
-    glDrawElements(GL_TRIANGLES, 12, GL_UNSIGNED_SHORT, nullptr);
-    glDrawElements(GL_QUADS, 4, GL_UNSIGNED_SHORT, (void*)(12 * sizeof(GLushort)));
+    glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, nullptr);
     glBindVertexArray(0);
 }
