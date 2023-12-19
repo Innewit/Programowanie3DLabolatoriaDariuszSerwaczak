@@ -413,9 +413,6 @@
 		},
 		{
 			"path" : "src/Assignments/Pyramid/CMakeLists.txt"
-		},
-		{
-			"path" : "src/Assignments/Resizing/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
