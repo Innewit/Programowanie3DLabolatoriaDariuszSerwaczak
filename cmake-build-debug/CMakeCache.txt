@@ -14,8 +14,11 @@
 # EXTERNAL cache entries
 ########################
 
-//Build shared libraries
+//Build shared library
 BUILD_SHARED_LIBS:BOOL=OFF
+
+//Build static library
+BUILD_STATIC_LIBS:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -546,6 +549,15 @@ XeEngine_IS_TOP_LEVEL:STATIC=OFF
 XeEngine_SOURCE_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/XeEngine
 
 //Value Computed by CMake
+Zoom_BINARY_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom
+
+//Value Computed by CMake
+Zoom_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Zoom_SOURCE_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Zoom
+
+//Value Computed by CMake
 application_BINARY_DIR:STATIC=/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Application
 
 //Value Computed by CMake
@@ -699,7 +711,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

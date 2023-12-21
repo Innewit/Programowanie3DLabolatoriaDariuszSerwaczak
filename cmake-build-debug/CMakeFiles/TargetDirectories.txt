@@ -26,6 +26,7 @@
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/CMakeFiles/install.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/CMakeFiles/install/local.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/CMakeFiles/install/strip.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/glm/CMakeFiles/glm_static.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/glm/CMakeFiles/edit_cache.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/glm/CMakeFiles/rebuild_cache.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-build/glm/CMakeFiles/list_install_components.dir
@@ -123,3 +124,10 @@
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Resizing/CMakeFiles/install.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Resizing/CMakeFiles/install/local.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Resizing/CMakeFiles/install/strip.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/Zoom.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/edit_cache.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/rebuild_cache.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/list_install_components.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/install.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/install/local.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/Zoom/CMakeFiles/install/strip.dir
