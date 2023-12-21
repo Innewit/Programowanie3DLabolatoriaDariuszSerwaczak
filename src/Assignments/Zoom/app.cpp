@@ -1,23 +1,15 @@
-//
-// Created by pbialas on 25.09.2020.
-//
-
 #include "app.h"
-
 #include <iostream>
 #include <vector>
 #include <glm/glm.hpp>
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-
 #include "Application/utils.h"
 
 void SimpleShapeApplication::init() {
-    // Set up camera
     set_camera(new Camera);
 
-    // Create shader program
     auto program = xe::utils::create_program({
         {GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
         {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}
@@ -28,7 +20,6 @@ void SimpleShapeApplication::init() {
         exit(-1);
     }
 
-    // Set up vertices data
     std::vector<GLfloat> vertices = {
             0, 1, -0.5, 0.0f, 1.0f, 0.7f,
             -0.5, 0, 0, 0.6f, 0.4f, 0.7f,
@@ -37,7 +28,6 @@ void SimpleShapeApplication::init() {
             -0.5, 0, -1, 1.0f, 0.5f, 0.2f,
     };
 
-    // Set up uniform buffer object (u_pvm_buffer_)
     GLuint u_buffer_handle;
     glGenBuffers(1, &u_buffer_handle);
     glBindBuffer(GL_UNIFORM_BUFFER, u_buffer_handle);
@@ -49,19 +39,16 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
     glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), 4 * sizeof(float), color);
 
-    // Set up another uniform buffer object (u_pvm_buffer_)
     glGenBuffers(1, &u_pvm_buffer_);
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_);
 
-    // Set up camera parameters
     glm::vec3 cameraPos = glm::vec3(-4.5f, -1.5f, 2.5f);
     glm::vec3 cameraTarget = glm::vec3(0.0f, 0.5f, -0.5f);
     glm::vec3 upVector = glm::vec3(0.0f, 1.0f, 0.0f);
     camera_->look_at(cameraPos, cameraTarget, upVector);
 
-    // Set up perspective projection
     int w, h;
     std::tie(w, h) = frame_buffer_size();
     float aspect = static_cast<float>(w) / h;
@@ -70,69 +57,73 @@ void SimpleShapeApplication::init() {
     float far = 100.0f;
     camera_->perspective(fov, aspect, near, far);
 
-    // Set up PVM matrix
     glm::mat4 PVM = camera_->projection() * camera_->view();
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
-
-    // Bind u_pvm_buffer_ for transformations
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
 #if __APPLE__
-    // Additional setup for Apple platforms
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
     GLuint bindingPoint = 1;
     glUniformBlockBinding(program, blockIndex, bindingPoint);
 #endif
 
-    // Set up index buffer
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
     glGenBuffers(1, &i_buffer_handle);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices_buffer.size() * sizeof(GLushort), indices_buffer.data(), GL_STATIC_DRAW);
+    glBufferData(
+            GL_ELEMENT_ARRAY_BUFFER,
+            indices_buffer.size() * sizeof(GLushort),
+            indices_buffer.data(),
+            GL_STATIC_DRAW
+            );
 
-    // Set up vertex buffer
     GLuint v_buffer_handle;
     glGenBuffers(1, &v_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
 
-    // Set up vertex array object (VAO)
     glGenVertexArrays(1, &vao_);
     glBindVertexArray(vao_);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
 
-    // Set up vertex attributes
     glEnableVertexAttribArray(0);
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), reinterpret_cast<GLvoid*>(0));
+    glVertexAttribPointer(
+            0,
+            3,
+            GL_FLOAT,
+            GL_FALSE,
+            6 * sizeof(GLfloat),
+            reinterpret_cast<GLvoid*>(0)
+            );
 
     glEnableVertexAttribArray(1);
-    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(GLfloat), reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat)));
+    glVertexAttribPointer(
+            1,
+            3,
+            GL_FLOAT,
+            GL_FALSE,
+            6 * sizeof(GLfloat),
+            reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat))
+            );
 
-    // Unbind buffers and VAO
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
-    // Set clear color and viewport
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
     glViewport(0, 0, w, h);
-
-    // Use the shader program
     glUseProgram(program);
 }
 
 void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
     Application::framebuffer_resize_callback(w, h);
-    glViewport(0,0,w,h);
+    glViewport(0, 0, w, h);
     camera_->set_aspect((float) w / h);
 }
 
-//This functions is called every frame and does the actual rendering.
 void SimpleShapeApplication::frame() {
-    // Binding the VAO will setup all the required vertex buffers.
     glBindVertexArray(vao_);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
@@ -142,7 +133,6 @@ void SimpleShapeApplication::frame() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-    // Draw pyramid
     glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, nullptr);
     glBindVertexArray(0);
 }
