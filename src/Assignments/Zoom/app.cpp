@@ -62,8 +62,8 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     #if __APPLE__
-        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
         GLuint bindingPoint = 1;
+        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
         glUniformBlockBinding(program, blockIndex, bindingPoint);
     #endif
 
