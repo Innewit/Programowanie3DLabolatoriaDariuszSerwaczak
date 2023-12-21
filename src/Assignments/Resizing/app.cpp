@@ -66,23 +66,25 @@ void SimpleShapeApplication::init() {
     //glm::vec3 cameraPos   = glm::vec3(-1.0f, 5.5f, 1.0f); // The view from the top
     glm::vec3 cameraTarget = glm::vec3(0.0f, 0.5f, -0.5f);
     glm::vec3 upVector    = glm::vec3(0.0f, 1.0f, 0.0f);
-    glm::mat4 View = glm::lookAt(cameraPos, cameraTarget, upVector);
+    V_ = glm::lookAt(cameraPos, cameraTarget, upVector);
 
     // Projection matrix
-    float fov = glm::radians(45.0f); // Field of View
-    float aspect = 3024.0f/1964.0f; // Aspect ratio
-    float nearClip = 0.1f; // Near clipping plane
-    float farClip = 100.0f; // Far clipping plane
-    glm::mat4 Projection = glm::perspective(fov, aspect, nearClip, farClip);
+    int w, h;
+    std::tie(w, h) = frame_buffer_size();
+    aspect_ = (float)w/h;
+    fov_ = glm::pi<float>()/4.0;
+    near_ = 0.1f;
+    far_ = 100.0f;
+    P_ = glm::perspective(fov_, aspect_, near_, far_);
 
     // Compose the PVM matrix
-    glm::mat4 PVM = Projection * View * Model;
+    glm::mat4 PVM = P_ * V_ * Model;
 
     // Load data
     glBindBuffer(GL_UNIFORM_BUFFER, ubo);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
-
+    u_pvm_buffer_ = ubo;
 
     #if __APPLE__
         // Get the location of the uniform block
@@ -134,10 +136,16 @@ void SimpleShapeApplication::init() {
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
 
     // This setups an OpenGL vieport of the size of the whole rendering window.
-    auto[w, h] = frame_buffer_size();
     glViewport(0, 0, w, h);
 
     glUseProgram(program);
+}
+
+void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
+    Application::framebuffer_resize_callback(w, h);
+    glViewport(0,0,w,h);
+    aspect_ = (float) w / h;
+    P_ = glm::perspective(fov_, aspect_, near_, far_);
 }
 
 //This functions is called every frame and does the actual rendering.
@@ -146,6 +154,11 @@ void SimpleShapeApplication::frame() {
     glBindVertexArray(vao_);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
+
+    auto PVM = P_ * V_;
+    glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
+    glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     // Draw pyramid
     glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, nullptr);
