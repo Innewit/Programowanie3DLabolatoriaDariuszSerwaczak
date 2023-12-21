@@ -17,6 +17,14 @@ public:
         far_ = far;
     }
 
+    void zoom(float y_offset) {
+        auto x = fov_/glm::pi<float>();
+        auto y = inverse_logistic(x);
+        y+=y_offset;
+        x = logistic(y);
+        fov_ = x*glm::pi<float>();
+    }
+
     void set_aspect(float aspect) {
         aspect_ = aspect;
     }
@@ -32,4 +40,12 @@ private:
     float far_;
 
     glm::mat4 V_;
+
+    float logistic(float y) {
+        return 1.0f/(1.0f+std::exp(-y));
+    }
+
+    float inverse_logistic(float x) {
+        return std::log(x/(1.0f-x));
+    }
 };
