@@ -419,6 +419,9 @@
 		},
 		{
 			"path" : "src/Assignments/Zoom/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Assignments/CameraMovement/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

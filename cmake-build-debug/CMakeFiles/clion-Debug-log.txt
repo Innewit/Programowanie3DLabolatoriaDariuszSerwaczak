@@ -3,7 +3,6 @@
 -- GLM: Version 0.9.9.9
 -- Build spdlog: 1.12.0
 -- Build type: Debug
-Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/CameraMovement does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Meshes does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Materials does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/MeshesMaterials does not exists.
@@ -13,6 +12,6 @@ Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolat
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/PBR does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/MultipleLights does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/NormalMaps does not exists.
--- Configuring done (2.7s)
+-- Configuring done (2.6s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug

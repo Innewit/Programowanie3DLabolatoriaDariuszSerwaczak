@@ -23,7 +23,8 @@
 						15,
 						16,
 						17,
-						18
+						18,
+						19
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -35,7 +36,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -45,7 +46,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-954148ad9f7fb22cea98.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-0880651c1dfcc3700b2e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -55,13 +56,13 @@
 					"source" : "cmake-build-debug/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-b939d5cb5d701338fcd9.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-652f1f65af26d595fb6d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -71,8 +72,8 @@
 					"source" : "cmake-build-debug/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						12,
-						17
+						13,
+						18
 					]
 				},
 				{
@@ -102,7 +103,7 @@
 					"source" : "cmake-build-debug/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -117,7 +118,7 @@
 					"source" : "cmake-build-debug/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -132,7 +133,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -147,7 +148,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -162,7 +163,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						18
+						19
 					]
 				},
 				{
@@ -177,7 +178,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -192,7 +193,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -207,7 +208,7 @@
 					"source" : "src/Assignments/House",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -222,7 +223,7 @@
 					"source" : "src/Assignments/Colors",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -237,7 +238,7 @@
 					"source" : "src/Assignments/Indices",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -252,7 +253,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -267,7 +268,7 @@
 					"source" : "src/Assignments/PVM",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -282,7 +283,7 @@
 					"source" : "src/Assignments/Pyramid",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -297,7 +298,7 @@
 					"source" : "src/Assignments/Resizing",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -312,7 +313,22 @@
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						8
+						9
+					]
+				},
+				{
+					"build" : "src/Assignments/CameraMovement",
+					"jsonFile" : "directory-src.Assignments.CameraMovement-Debug-cae1d022c0a9ed7b8d07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "src/Assignments/CameraMovement",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -337,7 +353,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"directoryIndexes" : 
 					[
@@ -346,7 +363,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -359,9 +376,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12,
-						16,
-						17
+						13,
+						17,
+						18
 					]
 				},
 				{
@@ -374,7 +391,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13
+						14
 					]
 				},
 				{
@@ -386,7 +403,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -398,7 +415,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -410,7 +427,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -422,7 +439,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						18
+						19
 					]
 				},
 				{
@@ -434,7 +451,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -446,7 +463,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -458,7 +475,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -470,7 +487,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -482,7 +499,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -494,7 +511,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -506,7 +523,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -518,7 +535,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -530,7 +547,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -542,86 +559,105 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "CameraMovement",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 19,
+					"id" : "CameraMovement::@1dd1a3e3b31e895b5f56",
+					"jsonFile" : "target-CameraMovement-Debug-5cc0f1e9acfd45ec3093.json",
+					"name" : "CameraMovement",
+					"projectIndex" : 17
+				},
+				{
 					"directoryIndex" : 12,
 					"id" : "Colors::@5062fdf58fc14a2873b4",
-					"jsonFile" : "target-Colors-Debug-74354245c70a07b3d1c2.json",
+					"jsonFile" : "target-Colors-Debug-180bbd61839ce6a799fa.json",
 					"name" : "Colors",
 					"projectIndex" : 10
 				},
 				{
 					"directoryIndex" : 11,
 					"id" : "House::@a57c938c6b5fe80120df",
-					"jsonFile" : "target-House-Debug-4ff6d0355bff5e8a3bd5.json",
+					"jsonFile" : "target-House-Debug-5960ece875484a6a3545.json",
 					"name" : "House",
 					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 13,
 					"id" : "Indices::@7518ba586045ff6a9b77",
-					"jsonFile" : "target-Indices-Debug-0b8918bfab8c6ab4e0e3.json",
+					"jsonFile" : "target-Indices-Debug-4047af326b891a489cb4.json",
 					"name" : "Indices",
 					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 15,
 					"id" : "PVM::@52808b3e216cfe39f7b8",
-					"jsonFile" : "target-PVM-Debug-3f0597c732633fd4b80d.json",
+					"jsonFile" : "target-PVM-Debug-1542ea7fb606f353ba96.json",
 					"name" : "PVM",
 					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 16,
 					"id" : "Pyramid::@ea055d38d21e054cdebf",
-					"jsonFile" : "target-Pyramid-Debug-590b77d0dc7271e4c950.json",
+					"jsonFile" : "target-Pyramid-Debug-e485aadca6aa9b50f7bc.json",
 					"name" : "Pyramid",
 					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 17,
 					"id" : "Resizing::@80b58e68574a65d33c27",
-					"jsonFile" : "target-Resizing-Debug-083e888bcd2640a2ca47.json",
+					"jsonFile" : "target-Resizing-Debug-7b82e4d7021964c4d57b.json",
 					"name" : "Resizing",
 					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 10,
 					"id" : "Triangle::@ee163803f4c0a4b34178",
-					"jsonFile" : "target-Triangle-Debug-ac8dc6649c7099ffdfb6.json",
+					"jsonFile" : "target-Triangle-Debug-fd43c7048d7d3e448e24.json",
 					"name" : "Triangle",
 					"projectIndex" : 8
 				},
 				{
 					"directoryIndex" : 14,
 					"id" : "Uniforms::@72af09b1f554c581fc86",
-					"jsonFile" : "target-Uniforms-Debug-adc1d94b6a7ed1bfe021.json",
+					"jsonFile" : "target-Uniforms-Debug-96f0ff8d660f0a886fc4.json",
 					"name" : "Uniforms",
 					"projectIndex" : 12
 				},
 				{
 					"directoryIndex" : 18,
 					"id" : "Zoom::@d3a55d88706d926832ee",
-					"jsonFile" : "target-Zoom-Debug-82e4af7ddb8b80e53754.json",
+					"jsonFile" : "target-Zoom-Debug-57a591f135c0dca9213b.json",
 					"name" : "Zoom",
 					"projectIndex" : 16
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "application::@63f4a4cc0e32de8c050b",
-					"jsonFile" : "target-application-Debug-8159638716f3bf32ec9d.json",
+					"jsonFile" : "target-application-Debug-60ad92e48442759d2bcb.json",
 					"name" : "application",
 					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 9,
 					"id" : "engine::@57eeced369f002faad1a",
-					"jsonFile" : "target-engine-Debug-6f753ce0bf8f073f05eb.json",
+					"jsonFile" : "target-engine-Debug-c5d34b5a1074159284ee.json",
 					"name" : "engine",
 					"projectIndex" : 7
 				},
@@ -649,7 +685,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "objreader::@fe69842f7a07b275738d",
-					"jsonFile" : "target-objreader-Debug-cda35764f1afb68a87b3.json",
+					"jsonFile" : "target-objreader-Debug-86798c966ff996d126a9.json",
 					"name" : "objreader",
 					"projectIndex" : 5
 				},
@@ -677,7 +713,7 @@
 				{
 					"directoryIndex" : 8,
 					"id" : "xe-engine::@6de0204676fa90e31894",
-					"jsonFile" : "target-xe-engine-Debug-e5026eb81fb2fee4779c.json",
+					"jsonFile" : "target-xe-engine-Debug-1a83d59c7cdd87912355.json",
 					"name" : "xe-engine",
 					"projectIndex" : 6
 				}

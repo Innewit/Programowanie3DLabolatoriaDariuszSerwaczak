@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Assignments/PVM/PVM"
+			"path" : "src/Assignments/Triangle/Triangle"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Assignments/PVM/CMakeLists.txt",
+			"src/Assignments/Triangle/CMakeLists.txt",
 			"cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
@@ -115,11 +115,11 @@
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/PVM\""
+					"define" : "PROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Triangle\""
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_NAME=\"PVM\""
+					"define" : "PROJECT_NAME=\"Triangle\""
 				},
 				{
 					"backtrace" : 8,
@@ -181,18 +181,18 @@
 	[
 		{
 			"backtrace" : 1,
-			"id" : "glfw::@fa9f4482d3a2b070f206"
+			"id" : "glad::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 1,
-			"id" : "glad::@6890427a1f51a3e7e1df"
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		},
 		{
 			"backtrace" : 1,
 			"id" : "application::@63f4a4cc0e32de8c050b"
 		}
 	],
-	"id" : "PVM::@52808b3e216cfe39f7b8",
+	"id" : "Triangle::@ee163803f4c0a4b34178",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -248,12 +248,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "PVM",
-	"nameOnDisk" : "PVM",
+	"name" : "Triangle",
+	"nameOnDisk" : "Triangle",
 	"paths" : 
 	{
-		"build" : "src/Assignments/PVM",
-		"source" : "src/Assignments/PVM"
+		"build" : "src/Assignments/Triangle",
+		"source" : "src/Assignments/Triangle"
 	},
 	"sourceGroups" : 
 	[
@@ -285,18 +285,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/PVM/main.cpp",
+			"path" : "src/Assignments/Triangle/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Assignments/PVM/app.h",
+			"path" : "src/Assignments/Triangle/app.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/PVM/app.cpp",
+			"path" : "src/Assignments/Triangle/app.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

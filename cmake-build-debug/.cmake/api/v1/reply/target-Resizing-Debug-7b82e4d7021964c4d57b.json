@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/Assignments/Zoom/Zoom"
+			"path" : "src/Assignments/Resizing/Resizing"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/Assignments/Zoom/CMakeLists.txt",
+			"src/Assignments/Resizing/CMakeLists.txt",
 			"cmake-build-debug/_deps/glfw-src/src/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
@@ -115,11 +115,11 @@
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Zoom\""
+					"define" : "PROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Resizing\""
 				},
 				{
 					"backtrace" : 7,
-					"define" : "PROJECT_NAME=\"Zoom\""
+					"define" : "PROJECT_NAME=\"Resizing\""
 				},
 				{
 					"backtrace" : 8,
@@ -181,18 +181,18 @@
 	[
 		{
 			"backtrace" : 1,
-			"id" : "glfw::@fa9f4482d3a2b070f206"
+			"id" : "glad::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 1,
-			"id" : "glad::@6890427a1f51a3e7e1df"
+			"id" : "glfw::@fa9f4482d3a2b070f206"
 		},
 		{
 			"backtrace" : 1,
 			"id" : "application::@63f4a4cc0e32de8c050b"
 		}
 	],
-	"id" : "Zoom::@d3a55d88706d926832ee",
+	"id" : "Resizing::@80b58e68574a65d33c27",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -248,12 +248,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Zoom",
-	"nameOnDisk" : "Zoom",
+	"name" : "Resizing",
+	"nameOnDisk" : "Resizing",
 	"paths" : 
 	{
-		"build" : "src/Assignments/Zoom",
-		"source" : "src/Assignments/Zoom"
+		"build" : "src/Assignments/Resizing",
+		"source" : "src/Assignments/Resizing"
 	},
 	"sourceGroups" : 
 	[
@@ -269,15 +269,14 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				1,
-				3
+				1
 			]
 		},
 		{
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				4
+				3
 			]
 		}
 	],
@@ -286,24 +285,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Zoom/main.cpp",
+			"path" : "src/Assignments/Resizing/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "src/Assignments/Zoom/app.h",
+			"path" : "src/Assignments/Resizing/app.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Assignments/Zoom/app.cpp",
+			"path" : "src/Assignments/Resizing/app.cpp",
 			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "src/Assignments/Zoom/camera.h",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
