@@ -4,7 +4,6 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
-#include <glm/gtc/matrix_transform.hpp>
 #include "Application/utils.h"
 
 void SimpleShapeApplication::init() {
@@ -62,11 +61,11 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-#if __APPLE__
-    GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
-    GLuint bindingPoint = 1;
-    glUniformBlockBinding(program, blockIndex, bindingPoint);
-#endif
+    #if __APPLE__
+        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+        GLuint bindingPoint = 1;
+        glUniformBlockBinding(program, blockIndex, bindingPoint);
+    #endif
 
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
