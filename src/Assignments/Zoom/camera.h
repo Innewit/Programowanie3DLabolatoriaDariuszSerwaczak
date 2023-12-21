@@ -17,16 +17,16 @@ public:
         far_ = far;
     }
 
+    void set_aspect(float aspect) {
+        aspect_ = aspect;
+    }
+
     void zoom(float y_offset) {
         auto x = fov_/glm::pi<float>();
         auto y = inverse_logistic(x);
         y+=y_offset;
         x = logistic(y);
         fov_ = x*glm::pi<float>();
-    }
-
-    void set_aspect(float aspect) {
-        aspect_ = aspect;
     }
 
     glm::mat4 view() const { return V_; }
