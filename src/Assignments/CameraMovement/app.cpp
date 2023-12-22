@@ -8,6 +8,7 @@
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);
+    set_controler(new CameraControler(camera(), 0.01));
 
     auto program = xe::utils::create_program({
         {GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
@@ -43,8 +44,8 @@ void SimpleShapeApplication::init() {
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_);
 
-    glm::vec3 cameraPos = glm::vec3(-4.5f, -1.5f, 2.5f);
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.5f, -0.5f);
+    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.5f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, -0.5f);
     glm::vec3 upVector = glm::vec3(0.0f, 1.0f, 0.0f);
     camera_->look_at(cameraPos, cameraTarget, upVector);
 
