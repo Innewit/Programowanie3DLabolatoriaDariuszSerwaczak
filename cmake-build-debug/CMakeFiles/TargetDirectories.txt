@@ -138,3 +138,10 @@
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/CameraMovement/CMakeFiles/install.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/CameraMovement/CMakeFiles/install/local.dir
 /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/CameraMovement/CMakeFiles/install/strip.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/edit_cache.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/rebuild_cache.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/list_install_components.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/install.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/install/local.dir
+/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials/CMakeFiles/install/strip.dir

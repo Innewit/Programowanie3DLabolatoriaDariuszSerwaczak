@@ -5,7 +5,6 @@
 -- Build type: Debug
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Meshes does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Materials does not exists.
-Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/MeshesMaterials does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/SceneGraph does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Textures does not exists.
 Warning: directory /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Phong does not exists.

@@ -24,7 +24,8 @@
 						16,
 						17,
 						18,
-						19
+						19,
+						20
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
@@ -36,7 +37,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -46,7 +47,7 @@
 						2
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build-Debug-0880651c1dfcc3700b2e.json",
+					"jsonFile" : "directory-_deps.glfw-build-Debug-94f426887cbf08aaa526.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -56,13 +57,13 @@
 					"source" : "cmake-build-debug/_deps/glfw-src",
 					"targetIndexes" : 
 					[
-						17
+						18
 					]
 				},
 				{
 					"build" : "_deps/glfw-build/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.glfw-build.src-Debug-652f1f65af26d595fb6d.json",
+					"jsonFile" : "directory-_deps.glfw-build.src-Debug-06065241cb26c50d9d8c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.4"
@@ -72,8 +73,8 @@
 					"source" : "cmake-build-debug/_deps/glfw-src/src",
 					"targetIndexes" : 
 					[
-						13,
-						18
+						14,
+						19
 					]
 				},
 				{
@@ -103,7 +104,7 @@
 					"source" : "cmake-build-debug/_deps/glm-src/glm",
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -118,7 +119,7 @@
 					"source" : "cmake-build-debug/_deps/spdlog-src",
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -133,7 +134,7 @@
 					"source" : "src/Application",
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -148,7 +149,7 @@
 					"source" : "src/ObjectReader",
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -163,7 +164,7 @@
 					"source" : "src/XeEngine",
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -178,7 +179,7 @@
 					"source" : "src/Engine",
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -193,7 +194,7 @@
 					"source" : "src/Assignments/Triangle",
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -253,7 +254,7 @@
 					"source" : "src/Assignments/Uniforms",
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -268,7 +269,7 @@
 					"source" : "src/Assignments/PVM",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -283,7 +284,7 @@
 					"source" : "src/Assignments/Pyramid",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -298,7 +299,7 @@
 					"source" : "src/Assignments/Resizing",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -313,7 +314,7 @@
 					"source" : "src/Assignments/Zoom",
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -329,6 +330,21 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"build" : "src/Assignments/MeshesMaterials",
+					"jsonFile" : "directory-src.Assignments.MeshesMaterials-Debug-13643c46ae22ab4e55ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "src/Assignments/MeshesMaterials",
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -354,7 +370,8 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18
 					],
 					"directoryIndexes" : 
 					[
@@ -363,7 +380,7 @@
 					"name" : "Graphics3DCode",
 					"targetIndexes" : 
 					[
-						12
+						13
 					]
 				},
 				{
@@ -376,9 +393,9 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						13,
-						17,
-						18
+						14,
+						18,
+						19
 					]
 				},
 				{
@@ -391,7 +408,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14
+						15
 					]
 				},
 				{
@@ -403,7 +420,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16
+						17
 					]
 				},
 				{
@@ -415,7 +432,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10
+						11
 					]
 				},
 				{
@@ -427,7 +444,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						15
+						16
 					]
 				},
 				{
@@ -439,7 +456,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						19
+						20
 					]
 				},
 				{
@@ -451,7 +468,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						11
+						12
 					]
 				},
 				{
@@ -463,7 +480,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						7
+						8
 					]
 				},
 				{
@@ -511,7 +528,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8
+						9
 					]
 				},
 				{
@@ -523,7 +540,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -535,7 +552,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -547,7 +564,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -559,7 +576,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						9
+						10
 					]
 				},
 				{
@@ -572,6 +589,18 @@
 					"targetIndexes" : 
 					[
 						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "MeshesMaterials",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
 					]
 				}
 			],
@@ -604,6 +633,13 @@
 					"jsonFile" : "target-Indices-Debug-4047af326b891a489cb4.json",
 					"name" : "Indices",
 					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "MeshesMaterials::@d485c1eb949b9afbb566",
+					"jsonFile" : "target-MeshesMaterials-Debug-ec5ed16ee29321238129.json",
+					"name" : "MeshesMaterials",
+					"projectIndex" : 18
 				},
 				{
 					"directoryIndex" : 15,

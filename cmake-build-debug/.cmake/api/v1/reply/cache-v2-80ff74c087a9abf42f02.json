@@ -995,7 +995,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "20"
+			"value" : "21"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1988,6 +1988,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/Indices"
+		},
+		{
+			"name" : "MeshesMaterials_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/src/Assignments/MeshesMaterials"
+		},
+		{
+			"name" : "MeshesMaterials_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MeshesMaterials_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/MeshesMaterials"
 		},
 		{
 			"name" : "OBJReader_BINARY_DIR",
