@@ -8,6 +8,7 @@
 
 #include "Application/application.h"
 #include "Application/utils.h"
+#include "Engine/Mesh.h"
 
 #include <glm/glm.hpp>
 #include "glad/gl.h"
@@ -59,6 +60,10 @@ public:
         }
     }
 
+    void add_submesh(xe::Mesh *mesh) {
+        meshes_.push_back(mesh);
+    }
+
     ~SimpleShapeApplication() {
         if (camera_) {
             delete camera_;
@@ -70,4 +75,6 @@ private:
     CameraControler *controler_;
     GLuint vao_;
     GLuint u_pvm_buffer_;
+
+    std::vector<xe::Mesh*> meshes_;
 };

@@ -5,8 +5,11 @@
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "Application/utils.h"
+#include "Engine/Mesh.h"
 
 void SimpleShapeApplication::init() {
+    auto pyramid = new xe::Mesh;
+
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
 
@@ -70,6 +73,8 @@ void SimpleShapeApplication::init() {
 
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
+    pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), 0);
+    pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), &indices_buffer);
     glGenBuffers(1, &i_buffer_handle);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBufferData(
@@ -80,6 +85,8 @@ void SimpleShapeApplication::init() {
             );
 
     GLuint v_buffer_handle;
+    pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
+    pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), &vertices);
     glGenBuffers(1, &v_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
     glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
@@ -89,6 +96,7 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
 
+    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0);
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(
             0,
@@ -135,4 +143,7 @@ void SimpleShapeApplication::frame() {
 
     glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, nullptr);
     glBindVertexArray(0);
+
+    for (auto m: meshes_)
+        m->draw();
 }

@@ -87,3 +87,11 @@
 1719	1754	1703209533895032000	src/Application/libapplication.a	cd4b679fbfa5de85
 1299	1801	1703209533937464518	src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/app.cpp.o	1d90058f2e461e70
 1801	1967	1703209534105455532	src/Assignments/MeshesMaterials/MeshesMaterials	8f374db6a7356195
+12	454	1703209611043355524	src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/main.cpp.o	2926bbf3cad94b28
+12	550	1703209611138837972	src/Assignments/CameraMovement/CMakeFiles/CameraMovement.dir/app.cpp.o	160f4de301a452f8
+550	701	1703209611291440897	src/Assignments/CameraMovement/CameraMovement	950bc823356c6d52
+11	522	1703249398076107800	src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/main.cpp.o	b6f074e01733af90
+12	674	1703249398228123857	src/Assignments/Pyramid/CMakeFiles/Pyramid.dir/app.cpp.o	d0ece9c2aed92f44
+674	858	1703249398413797922	src/Assignments/Pyramid/Pyramid	3032cf75345c2480
+23	628	1703254956797121336	src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/main.cpp.o	ae869ee298f24984
+23	712	1703254956881485430	src/Assignments/MeshesMaterials/CMakeFiles/MeshesMaterials.dir/app.cpp.o	1d90058f2e461e70
