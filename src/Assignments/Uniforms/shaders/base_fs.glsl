@@ -4,7 +4,7 @@ in vec3 vertexColor;
 
 out vec4 FragColor;
 
-#if __APPLE__
+#if _Windows == 1
     layout(std140) uniform Modifier
 #else
     layout(std140, binding=0) uniform Modifier
