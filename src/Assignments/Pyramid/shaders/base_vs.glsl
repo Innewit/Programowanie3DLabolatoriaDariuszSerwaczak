@@ -3,7 +3,7 @@
 layout(location = 0) in vec4 a_vertex_position;
 layout(location = 1) in vec3 a_vertex_color;
 
-#if defined(__APPLE__)
+#if _Windows == 1
     layout(std140, binding=1) uniform Transformations
 #else
     layout(std140) uniform Transformations

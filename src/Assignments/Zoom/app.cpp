@@ -61,11 +61,11 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-    #if __APPLE__
-        GLuint bindingPoint = 1;
-        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
-        glUniformBlockBinding(program, blockIndex, bindingPoint);
-    #endif
+
+    GLuint bindingPoint = 1;
+    GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+    glUniformBlockBinding(program, blockIndex, bindingPoint);
+
 
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};

@@ -86,14 +86,12 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
     u_pvm_buffer_ = ubo;
 
-    #if __APPLE__
-        // Get the location of the uniform block
-        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+    // Get the location of the uniform block
+    GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
 
-        // Set the binding point for the uniform block
-        GLuint bindingPoint = 1;
-        glUniformBlockBinding(program, blockIndex, bindingPoint);
-    #endif
+    // Set the binding point for the uniform block
+    GLuint bindingPoint = 1;
+    glUniformBlockBinding(program, blockIndex, bindingPoint);
 
     // Creating indices buffer
     GLuint i_buffer_handle;
