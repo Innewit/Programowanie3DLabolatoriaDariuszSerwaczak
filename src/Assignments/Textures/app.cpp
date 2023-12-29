@@ -25,12 +25,12 @@ void SimpleShapeApplication::init() {
     }
 
     std::vector<GLfloat> vertices = {
-            0, 1, -0.5,
-            -0.5, 0, 0,
-            0.5, 0, 0,
-            0.5, 0, -1,
-            -0.5, 0, -1,
-    };
+            0, 1, -0.5,     1.0, 0.0,
+            -0.5, 0, 0,     0.5, 0.809,
+            0.5, 0, 0,      1.0, 1.0,
+            0.5, 0, -1,     0.5, 0.809,
+            -0.5, 0, -1,    0.1910, 0.5,
+    }; //TODO Za malo wierzcholkow, piramida jest zdeformowana i przybiera losowo kolor niebieski
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
 
     // Mesh setup
@@ -84,6 +84,8 @@ void SimpleShapeApplication::init() {
     GLuint bindingPoint = 1;
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
     glUniformBlockBinding(program, blockIndex, bindingPoint);
+
+    load_predefined_texture();
 
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
     glViewport(0, 0, w, h);
