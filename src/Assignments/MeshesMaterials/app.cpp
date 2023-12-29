@@ -5,15 +5,17 @@
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "Application/utils.h"
-#include "Engine/Mesh.h"
+#include "Engine/Mesh.cpp"
+
+using namespace xe;
 
 void SimpleShapeApplication::init() {
-    auto pyramid = new xe::Mesh;
+    auto pyramid = new Mesh;
 
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
 
-    auto program = xe::utils::create_program({
+    auto program = utils::create_program({
         {GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
         {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}
     });
@@ -65,11 +67,9 @@ void SimpleShapeApplication::init() {
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
-    #if __APPLE__
-        GLuint bindingPoint = 1;
-        GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
-        glUniformBlockBinding(program, blockIndex, bindingPoint);
-    #endif
+    GLuint bindingPoint = 1;
+    GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
+    glUniformBlockBinding(program, blockIndex, bindingPoint);
 
     GLuint i_buffer_handle;
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};

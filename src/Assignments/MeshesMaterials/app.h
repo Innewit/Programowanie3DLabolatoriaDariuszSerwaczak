@@ -15,7 +15,9 @@
 #include "camera.h"
 #include "camera_controler.h"
 
-class SimpleShapeApplication : public xe::Application
+using namespace xe;
+
+class SimpleShapeApplication : public Application
 {
 public:
     SimpleShapeApplication(int width, int height, std::string title, bool debug) : Application(width, height, title, debug) {}
@@ -60,7 +62,7 @@ public:
         }
     }
 
-    void add_submesh(xe::Mesh *mesh) {
+    void add_submesh(Mesh *mesh) {
         meshes_.push_back(mesh);
     }
 
@@ -76,5 +78,5 @@ private:
     GLuint vao_;
     GLuint u_pvm_buffer_;
 
-    std::vector<xe::Mesh*> meshes_;
+    std::vector<Mesh*> meshes_;
 };
