@@ -96,7 +96,7 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
     glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
 
-    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0);
+    //pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0); //TODO FIX IT
     glEnableVertexAttribArray(0);
     glVertexAttribPointer(
             0,
