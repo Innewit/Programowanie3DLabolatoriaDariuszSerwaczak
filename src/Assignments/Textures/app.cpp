@@ -31,6 +31,8 @@ void SimpleShapeApplication::init() {
             0.5, 0, -1,     0.5, 0.809,
             -0.5, 0, -1,    0.1910, 0.5,
     }; //TODO Za malo wierzcholkow, piramida jest zdeformowana i przybiera losowo kolor niebieski
+    //TODO Dodatkowo zmiany silnika uszkodziły MeshesMaterials, wiec trzeba naprawic bilblioteke w Engine lub
+    //TODO wersjonowac wersje bliblioteki (jak sie wyrobie przed deadline-m to lepiej 1. podejscie)
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
 
     // Mesh setup
