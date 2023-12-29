@@ -1,0 +1,6 @@
+Na zrzucie ekranu z porównaniem widać wynik programu CameraMovement z usunietym kodem z fragment shadera:
+vec3 rand_noise = vec3(float(gl_PrimitiveID) + 1) / 2;
+
+Powyższy kod to sztuczka i nie da się doprowadzić, w elegancki sposób, poprawionej wersji z MeshesMaterials do takiego samego koloru
+co wcześniej wysłany kod z CameraMovement. Jedyne co mógłbym zrobić to sprawdzić kolor pikselów z poprzedniego zadania
+i za-hardcodować je.

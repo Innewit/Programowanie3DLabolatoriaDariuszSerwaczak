@@ -9,6 +9,7 @@
 #include "Application/application.h"
 #include "Application/utils.h"
 #include "Engine/Mesh.h"
+#include "Engine/Material.h"
 
 #include <glm/glm.hpp>
 #include "glad/gl.h"

@@ -6,6 +6,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include "Application/utils.h"
 #include "Engine/Mesh.cpp"
+#include "Engine/Material.cpp"
 
 using namespace xe;
 
@@ -24,11 +25,11 @@ void SimpleShapeApplication::init() {
     }
 
     std::vector<GLfloat> vertices = {
-            0, 1, -0.5, 0.0f, 1.0f, 0.7f,
-            -0.5, 0, 0, 0.6f, 0.4f, 0.7f,
-            0.5, 0, 0, 0.5f, 0.4f, 8.0f,
-            0.5, 0, -1, 0.1f, 0.8f, 0.2f,
-            -0.5, 0, -1, 1.0f, 0.5f, 0.2f,
+            0, 1, -0.5,
+            -0.5, 0, 0,
+            0.5, 0, 0,
+            0.5, 0, -1,
+            -0.5, 0, -1,
     };
     std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
 
@@ -36,27 +37,27 @@ void SimpleShapeApplication::init() {
     auto pyramid = new Mesh;
     pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
     pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), vertices.data());
-    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0);
-    pyramid->vertex_attrib_pointer(1, 3, GL_FLOAT, 6 * sizeof(GLfloat), 3 * sizeof(GLfloat));
+    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 3 * sizeof(GLfloat), 0);
 
     pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), GL_STATIC_DRAW);
     pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), indices_buffer.data());
 
-    pyramid->add_submesh(0, 18);
+    ColorMaterial::init();
+
+    ///////
+    // Why? For this assignment, uniform color modifiers are not included in the shader, but we need to achieve the same color
+    float strength = 0.8f;
+    glm::vec4 color = {0.8f, 0.8f, 0.9f, 1.0f};
+    ///////
+
+    pyramid->add_submesh(0, 3, new ColorMaterial((glm::vec4){1.0f, 0.5f, 0.2f, 1.0f} * color * strength));
+    pyramid->add_submesh(3, 6, new ColorMaterial((glm::vec4){0.6f, 0.4f, 0.7f, 1.0f} * color * strength));
+    pyramid->add_submesh(6, 9, new ColorMaterial((glm::vec4){0.5f, 0.4f, 8.0f, 1.0f} * color * strength));
+    pyramid->add_submesh(9, 12, new ColorMaterial((glm::vec4){0.1f, 0.8f, 0.2f, 1.0f} * color * strength));
+    pyramid->add_submesh(12, 18, new ColorMaterial((glm::vec4){0.0f, 1.0f, 0.7f, 1.0f} * color * strength));
     add_submesh(pyramid);
 
-    // Uniform setup
-    GLuint u_buffer_handle;
-    glGenBuffers(1, &u_buffer_handle);
-    glBindBuffer(GL_UNIFORM_BUFFER, u_buffer_handle);
-    glBufferData(GL_UNIFORM_BUFFER, 8 * sizeof(float), nullptr, GL_STATIC_DRAW);
-    glBindBufferBase(GL_UNIFORM_BUFFER, 0, u_buffer_handle);
-
-    float strength = 0.8f;
-    float color[4] = {0.8f, 0.8f, 0.9f, 1.0f};
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(float), &strength);
-    glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), 4 * sizeof(float), color);
-
+    // PVM setup
     glGenBuffers(1, &u_pvm_buffer_);
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
@@ -75,7 +76,6 @@ void SimpleShapeApplication::init() {
     float far = 100.0f;
     camera_->perspective(fov, aspect, near, far);
 
-    // PVM setup
     glm::mat4 PVM = camera_->projection() * camera_->view();
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
