@@ -10,8 +10,6 @@
 using namespace xe;
 
 void SimpleShapeApplication::init() {
-    auto pyramid = new Mesh;
-
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
 
@@ -32,7 +30,22 @@ void SimpleShapeApplication::init() {
             0.5, 0, -1, 0.1f, 0.8f, 0.2f,
             -0.5, 0, -1, 1.0f, 0.5f, 0.2f,
     };
+    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
 
+    // Mesh setup
+    auto pyramid = new Mesh;
+    pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
+    pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), vertices.data());
+    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0);
+    pyramid->vertex_attrib_pointer(1, 3, GL_FLOAT, 6 * sizeof(GLfloat), 3 * sizeof(GLfloat));
+
+    pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), GL_STATIC_DRAW);
+    pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), indices_buffer.data());
+
+    pyramid->add_submesh(0, 18);
+    add_submesh(pyramid);
+
+    // Uniform setup
     GLuint u_buffer_handle;
     glGenBuffers(1, &u_buffer_handle);
     glBindBuffer(GL_UNIFORM_BUFFER, u_buffer_handle);
@@ -62,6 +75,7 @@ void SimpleShapeApplication::init() {
     float far = 100.0f;
     camera_->perspective(fov, aspect, near, far);
 
+    // PVM setup
     glm::mat4 PVM = camera_->projection() * camera_->view();
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
@@ -70,55 +84,6 @@ void SimpleShapeApplication::init() {
     GLuint bindingPoint = 1;
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
     glUniformBlockBinding(program, blockIndex, bindingPoint);
-
-    GLuint i_buffer_handle;
-    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
-    pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), 0);
-    pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), &indices_buffer);
-    glGenBuffers(1, &i_buffer_handle);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
-    glBufferData(
-            GL_ELEMENT_ARRAY_BUFFER,
-            indices_buffer.size() * sizeof(GLushort),
-            indices_buffer.data(),
-            GL_STATIC_DRAW
-            );
-
-    GLuint v_buffer_handle;
-    pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
-    pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), &vertices);
-    glGenBuffers(1, &v_buffer_handle);
-    glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
-    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(GLfloat), vertices.data(), GL_STATIC_DRAW);
-
-    glGenVertexArrays(1, &vao_);
-    glBindVertexArray(vao_);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, i_buffer_handle);
-    glBindBuffer(GL_ARRAY_BUFFER, v_buffer_handle);
-
-    //pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 6 * sizeof(GLfloat), 0); //TODO FIX IT
-    glEnableVertexAttribArray(0);
-    glVertexAttribPointer(
-            0,
-            3,
-            GL_FLOAT,
-            GL_FALSE,
-            6 * sizeof(GLfloat),
-            reinterpret_cast<GLvoid*>(0)
-            );
-
-    glEnableVertexAttribArray(1);
-    glVertexAttribPointer(
-            1,
-            3,
-            GL_FLOAT,
-            GL_FALSE,
-            6 * sizeof(GLfloat),
-            reinterpret_cast<GLvoid*>(3 * sizeof(GLfloat))
-            );
-
-    glBindBuffer(GL_ARRAY_BUFFER, 0);
-    glBindVertexArray(0);
 
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
     glViewport(0, 0, w, h);
@@ -132,7 +97,6 @@ void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
 }
 
 void SimpleShapeApplication::frame() {
-    glBindVertexArray(vao_);
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
 
@@ -140,9 +104,6 @@ void SimpleShapeApplication::frame() {
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), &PVM[0]);
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
-
-    glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_SHORT, nullptr);
-    glBindVertexArray(0);
 
     for (auto m: meshes_)
         m->draw();

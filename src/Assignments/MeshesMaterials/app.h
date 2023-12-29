@@ -75,7 +75,6 @@ public:
 private:
     Camera *camera_;
     CameraControler *controler_;
-    GLuint vao_;
     GLuint u_pvm_buffer_;
 
     std::vector<Mesh*> meshes_;
