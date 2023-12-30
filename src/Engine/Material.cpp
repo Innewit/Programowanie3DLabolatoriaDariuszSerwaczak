@@ -32,7 +32,6 @@ namespace xe {
         glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::vec4), &Kd_[0]);
         glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(GLint), &use_map_Kd);
         OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0u));
-
     }
 
 

@@ -20,7 +20,7 @@ namespace xe {
 
     class ColorMaterial : public Material {
     public:
-        ColorMaterial(const glm::vec4 color) : color_(color) {}
+        ColorMaterial(const glm::vec4 color) : Kd_(color), texture_(0), texture_unit_(0) {}
         ColorMaterial(const glm::vec4 color, GLuint texture, GLuint texture_unit) : Kd_(color), texture_(texture), texture_unit_(texture_unit) {}
         ColorMaterial(const glm::vec4 color, GLuint texture) : ColorMaterial(color, texture, 0) {}
         void bind();
