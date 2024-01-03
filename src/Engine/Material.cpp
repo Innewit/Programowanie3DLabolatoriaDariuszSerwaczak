@@ -4,8 +4,6 @@
 
 #define STB_IMAGE_IMPLEMENTATION  1
 
-#include "glm/gtx/string_cast.hpp"
-
 #include "Material.h"
 
 #include <glad/gl.h>
@@ -36,8 +34,6 @@ namespace xe {
 
 
     void ColorMaterial::init() {
-
-
         auto program = xe::utils::create_program(
                 {{GL_VERTEX_SHADER,   std::string(PROJECT_DIR) + "/shaders/color_vs.glsl"},
                  {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/color_fs.glsl"}});
@@ -71,7 +67,6 @@ namespace xe {
         }
 #endif
 
-
         uniform_map_Kd_location_ = glGetUniformLocation(shader_, "map_Kd");
         if (uniform_map_Kd_location_ == -1) {
             std::cout << "Cannot get uniform {} location" << "map_Kd" << std::endl;
@@ -79,14 +74,29 @@ namespace xe {
 
     }
 
+    void ColorMaterial::unbind() {
+        glBindBuffer(GL_UNIFORM_BUFFER, 0u);
+        glBindTexture(GL_TEXTURE_2D, 0u);
+    }
 
-    void load_predefined_texture() {
+    GLuint load_texture(std::string path) {
         stbi_set_flip_vertically_on_load(true);
         GLint width, height, channels;
-        const char *texture_file = (std::string(ROOT_DIR) + "/Models/multicolor.png").c_str();
-        auto img = stbi_load(texture_file, &width, &height, &channels, 0);
+        std::string texture_file = std::string(ROOT_DIR) + path;
+        auto img = stbi_load(texture_file.c_str(), &width, &height, &channels, 0);
         if (!img) {
-            std::cout << "Could not read image from file `{}'" << texture_file << std::endl;
+            std::cout << "Could not read image from file " << texture_file.c_str() << std::endl;
         }
+
+        GLuint texture;
+
+        glGenTextures(1, &texture);
+        glBindTexture(GL_TEXTURE_2D, texture);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, img);
+        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+
+        stbi_image_free(img);
+
+        return texture;
     }
 }

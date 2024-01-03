@@ -20,17 +20,39 @@ namespace xe {
 
     class ColorMaterial : public Material {
     public:
-        ColorMaterial(const glm::vec4 color) : Kd_(color), texture_(0), texture_unit_(0) {}
-        ColorMaterial(const glm::vec4 color, GLuint texture, GLuint texture_unit) : Kd_(color), texture_(texture), texture_unit_(texture_unit) {}
-        ColorMaterial(const glm::vec4 color, GLuint texture) : ColorMaterial(color, texture, 0) {}
+        ColorMaterial(const glm::vec4 color) : Kd_(color), texture_(0) {
+            set_texture(0);
+            set_texture_unit(0);
+        }
+        ColorMaterial(const glm::vec4 color, GLuint texture, GLuint texture_unit) : Kd_(color) {
+            set_texture(texture);
+            set_texture_unit(texture_unit);
+        }
+        ColorMaterial(GLuint texture, GLuint texture_unit) : Kd_((glm::vec4){1.0, 1.0, 1.0, 1.0}){
+            set_texture(texture);
+            set_texture_unit(texture_unit);
+        }
+
         void bind();
+        void unbind();
+
 
         static void init();
 
         static GLuint program() { return shader_; }
 
         void set_texture(GLuint tex) { texture_ = tex; }
+        [[nodiscard]] GLuint get_texture() const {
+            return texture_;
+        }
 
+        void set_texture_unit(GLuint textureUnit) {
+            texture_unit_ = textureUnit;
+        }
+
+        [[nodiscard]] GLuint get_texture_unit() const {
+            return texture_unit_;
+        }
     private:
         static GLuint shader_;
         static GLuint color_uniform_buffer_;
@@ -42,10 +64,6 @@ namespace xe {
 
         glm::vec4 color_;
     };
-
-    GLuint load_predefined_texture(const std::string &name);
-
-
 }
 
 

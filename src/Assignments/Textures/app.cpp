@@ -25,38 +25,39 @@ void SimpleShapeApplication::init() {
     }
 
     std::vector<GLfloat> vertices = {
-            0, 1, -0.5,     1.0, 0.0,
+            0, 1, -0.5,     1.0, 1.0,
             -0.5, 0, 0,     0.5, 0.809,
-            0.5, 0, 0,      1.0, 1.0,
-            0.5, 0, -1,     0.5, 0.809,
+            0.5, 0, 0,      0.809, 0.5,
+            0.5, 0, -1,     0.5, 0.1910,
             -0.5, 0, -1,    0.1910, 0.5,
-    }; //TODO Za malo wierzcholkow, piramida jest zdeformowana i przybiera losowo kolor niebieski
-    //TODO Dodatkowo zmiany silnika uszkodziły MeshesMaterials, wiec trzeba naprawic bilblioteke w Engine lub
-    //TODO wersjonowac wersje bliblioteki (jak sie wyrobie przed deadline-m to lepiej 1. podejscie)
-    std::vector<GLushort> indices_buffer = {0, 1, 2, 0, 2, 3, 0, 3, 4, 0, 4, 1, 1, 4, 2, 4, 3, 2};
+
+            // Extra vertices for the top one (but with different UV)
+            0, 1, -0.5,     0.0, 1.0,
+            0, 1, -0.5,     1.0, 0.0,
+            0, 1, -0.5,     0.0, 0.0,
+    };
+    std::vector<GLushort> indices_buffer = {0, 1, 2, 6, 2, 3, 7, 3, 4, 5, 4, 1, 1, 4, 2, 4, 3, 2};
 
     // Mesh setup
     auto pyramid = new Mesh;
     pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
     pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), vertices.data());
-    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 3 * sizeof(GLfloat), 0);
+    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 5 * sizeof(GLfloat), 0);
+    pyramid->vertex_attrib_pointer(1, 2, GL_FLOAT, 5 * sizeof(GLfloat), 3 * sizeof(GLfloat));
 
     pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), GL_STATIC_DRAW);
     pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), indices_buffer.data());
 
     ColorMaterial::init();
 
-    ///////
-    // Why? For this assignment, uniform color modifiers are not included in the shader, but we need to achieve the same color
-    float strength = 0.8f;
-    glm::vec4 color = {0.8f, 0.8f, 0.9f, 1.0f};
-    ///////
+    glm::vec4 base_color = {0.8, 0.8, 0.8, 1.0};
+    GLuint texture = xe::load_texture((std::string) "/Models/multicolor.png");
 
-    pyramid->add_submesh(0, 3, new ColorMaterial((glm::vec4){1.0f, 0.5f, 0.2f, 1.0f} * color * strength));
-    pyramid->add_submesh(3, 6, new ColorMaterial((glm::vec4){0.6f, 0.4f, 0.7f, 1.0f} * color * strength));
-    pyramid->add_submesh(6, 9, new ColorMaterial((glm::vec4){0.5f, 0.4f, 8.0f, 1.0f} * color * strength));
-    pyramid->add_submesh(9, 12, new ColorMaterial((glm::vec4){0.1f, 0.8f, 0.2f, 1.0f} * color * strength));
-    pyramid->add_submesh(12, 18, new ColorMaterial((glm::vec4){0.0f, 1.0f, 0.7f, 1.0f} * color * strength));
+    pyramid->add_submesh(0, 3, new ColorMaterial(base_color, texture, 0));
+    pyramid->add_submesh(3, 6, new ColorMaterial(base_color, texture, 1));
+    pyramid->add_submesh(6, 9, new ColorMaterial(base_color, texture, 2));
+    pyramid->add_submesh(9, 12, new ColorMaterial(base_color, texture, 3));
+    pyramid->add_submesh(12, 18, new ColorMaterial(base_color, texture, 4));
     add_submesh(pyramid);
 
     // PVM setup
@@ -86,8 +87,6 @@ void SimpleShapeApplication::init() {
     GLuint bindingPoint = 1;
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
     glUniformBlockBinding(program, blockIndex, bindingPoint);
-
-    load_predefined_texture();
 
     glClearColor(0.81f, 0.81f, 0.8f, 1.0f);
     glViewport(0, 0, w, h);
