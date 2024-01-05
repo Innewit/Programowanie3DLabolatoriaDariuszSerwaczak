@@ -1,22 +1,22 @@
 
-if (NOT EXISTS "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glfw-build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glfw-build/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt\"")
 endif()
 
-file(READ "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glfw-build/install_manifest.txt" files)
+file(READ "C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/_deps/glfw-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
   message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
   if (EXISTS "$ENV{DESTDIR}${file}")
-    exec_program("/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+    exec_program("D:/Apps/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
                  OUTPUT_VARIABLE rm_out
                  RETURN_VALUE rm_retval)
     if (NOT "${rm_retval}" STREQUAL 0)
       MESSAGE(FATAL_ERROR "Problem when removing \"$ENV{DESTDIR}${file}\"")
     endif()
   elseif (IS_SYMLINK "$ENV{DESTDIR}${file}")
-    EXEC_PROGRAM("/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+    EXEC_PROGRAM("D:/Apps/CLion 2023.2.2/bin/cmake/win/x64/bin/cmake.exe" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
                  OUTPUT_VARIABLE rm_out
                  RETURN_VALUE rm_retval)
     if (NOT "${rm_retval}" STREQUAL 0)

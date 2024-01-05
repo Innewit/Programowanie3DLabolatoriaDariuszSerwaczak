@@ -12,9 +12,9 @@
 #include "glm/gtc/type_ptr.hpp"
 
 #include "ObjectReader/obj_reader.h"
-#include "Engine/Material.h"
+#include "Material.h"
 //#include "XeEngine/PhongMaterial.h"
-#include "Engine/Mesh.h"
+#include "Mesh.h"
 
 
 namespace {
@@ -37,7 +37,7 @@ namespace xe {
         auto n_indices = 3 * smesh.faces.size();
 
 
-        uint n_floats_per_vertex = 3;
+        glm::uint n_floats_per_vertex = 3;
         for (auto &&t: smesh.has_texcoords) {
             if (t)
                 n_floats_per_vertex += 2;
