@@ -8,3 +8,5 @@ add_library(engine
         Material.h Material.cpp
         mesh_loader.h mesh_loader.cpp
 )
+
+target_link_libraries(engine PUBLIC objreader)

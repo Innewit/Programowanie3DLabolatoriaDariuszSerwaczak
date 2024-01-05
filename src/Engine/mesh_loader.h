@@ -10,5 +10,5 @@
 namespace xe {
     class Mesh;
 
-    std::shared_ptr<Mesh> load_mesh_from_obj(std::string path, std::string mtl_dir);
+    Mesh* load_mesh_from_obj(std::string path, std::string mtl_dir);
 }

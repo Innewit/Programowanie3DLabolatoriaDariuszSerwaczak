@@ -5,15 +5,16 @@
 #include <glm/gtc/constants.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "Application/utils.h"
-#include "Engine/Mesh.cpp"
-#include "Engine/Material.cpp"
 #include "Engine/mesh_loader.cpp"
+#include "Engine/Material.cpp"
+#include "Engine/Mesh.cpp"
+#include "ObjectReader/obj_reader.cpp"
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
 
-    auto pyramid_loaded = xe::load_mesh_from_obj(std::string(ROOT_DIR) + "/Models/pyramid.obj",
+    auto loaded_mesh = xe::load_mesh_from_obj(std::string(ROOT_DIR) + "/Models/blue_marble.obj",
                                             std::string(ROOT_DIR) + "/Models");
 
     auto program = utils::create_program({
@@ -26,41 +27,9 @@ void SimpleShapeApplication::init() {
         exit(-1);
     }
 
-    std::vector<GLfloat> vertices = {
-            0, 1, -0.5,     1.0, 1.0,
-            -0.5, 0, 0,     0.5, 0.809,
-            0.5, 0, 0,      0.809, 0.5,
-            0.5, 0, -1,     0.5, 0.1910,
-            -0.5, 0, -1,    0.1910, 0.5,
-
-            // Extra vertices for the top one (but with different UV)
-            0, 1, -0.5,     0.0, 1.0,
-            0, 1, -0.5,     1.0, 0.0,
-            0, 1, -0.5,     0.0, 0.0,
-    };
-    std::vector<GLushort> indices_buffer = {0, 1, 2, 6, 2, 3, 7, 3, 4, 5, 4, 1, 1, 4, 2, 4, 3, 2};
-
     // Mesh setup
-    auto pyramid = new Mesh;
-    pyramid->allocate_vertex_buffer(vertices.size() * sizeof(GLfloat), GL_STATIC_DRAW);
-    pyramid->load_vertices(0, vertices.size() * sizeof(GLfloat), vertices.data());
-    pyramid->vertex_attrib_pointer(0, 3, GL_FLOAT, 5 * sizeof(GLfloat), 0);
-    pyramid->vertex_attrib_pointer(1, 2, GL_FLOAT, 5 * sizeof(GLfloat), 3 * sizeof(GLfloat));
-
-    pyramid->allocate_index_buffer(indices_buffer.size() * sizeof(GLushort), GL_STATIC_DRAW);
-    pyramid->load_indices(0, indices_buffer.size() * sizeof(GLushort), indices_buffer.data());
-
-    ColorMaterial::init();
-
-    glm::vec4 base_color = {0.8, 0.8, 0.8, 1.0};
-    GLuint texture = xe::load_texture((std::string) "/Models/multicolor.png");
-
-    pyramid->add_submesh(0, 3, new xe::ColorMaterial(base_color, texture, 0));
-    pyramid->add_submesh(3, 6, new xe::ColorMaterial(base_color, texture, 1));
-    pyramid->add_submesh(6, 9, new xe::ColorMaterial(base_color, texture, 2));
-    pyramid->add_submesh(9, 12, new xe::ColorMaterial(base_color, texture, 3));
-    pyramid->add_submesh(12, 18, new xe::ColorMaterial(base_color, texture, 4));
-    add_submesh(pyramid);
+    ColorMaterial::init();;
+    add_submesh(loaded_mesh);
 
     // PVM setup
     glGenBuffers(1, &u_pvm_buffer_);
@@ -68,8 +37,8 @@ void SimpleShapeApplication::init() {
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 1, u_pvm_buffer_);
 
-    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.5f);
-    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, -0.5f);
+    glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 6.0f);
+    glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
     glm::vec3 upVector = glm::vec3(0.0f, 1.0f, 0.0f);
     camera_->look_at(cameraPos, cameraTarget, upVector);
 

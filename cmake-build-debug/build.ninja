@@ -1206,7 +1206,7 @@ build src/XeEngine/install/strip: phony src/XeEngine/CMakeFiles/install/strip.ut
 #############################################
 # Order-only phony target for engine
 
-build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
+build cmake_object_order_depends_target_engine: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_objreader cmake_object_order_depends_target_spdlog
 
 build src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj: CXX_COMPILER__engine_unscanned_Debug C$:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine/Mesh.cpp || cmake_object_order_depends_target_engine
   DEFINES = -DMAJOR=4 -DMINOR=6 -DPROJECT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby\" -DXE_DEBUG
@@ -1240,7 +1240,7 @@ build src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.obj: CXX_COMPILER__engine
 #############################################
 # Link the static library src\Engine\libengine.a
 
-build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj src/Engine/CMakeFiles/engine.dir/Material.cpp.obj src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.obj || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad
+build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_6/glad/src/gl.c.obj src/Engine/CMakeFiles/engine.dir/Mesh.cpp.obj src/Engine/CMakeFiles/engine.dir/Material.cpp.obj src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.obj || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a _deps/spdlog-build/libspdlogd.a glad src/ObjectReader/libobjreader.a
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src\Engine\CMakeFiles\engine.dir
   POST_BUILD = cd .
