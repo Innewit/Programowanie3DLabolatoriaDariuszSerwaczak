@@ -7,12 +7,14 @@
 #include "Application/utils.h"
 #include "Engine/Mesh.cpp"
 #include "Engine/Material.cpp"
-
-using namespace xe;
+#include "Engine/mesh_loader.cpp"
 
 void SimpleShapeApplication::init() {
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
+
+    auto pyramid_loaded = xe::load_mesh_from_obj(std::string(ROOT_DIR) + "/Models/pyramid.obj",
+                                            std::string(ROOT_DIR) + "/Models");
 
     auto program = utils::create_program({
         {GL_VERTEX_SHADER, std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
@@ -53,11 +55,11 @@ void SimpleShapeApplication::init() {
     glm::vec4 base_color = {0.8, 0.8, 0.8, 1.0};
     GLuint texture = xe::load_texture((std::string) "/Models/multicolor.png");
 
-    pyramid->add_submesh(0, 3, new ColorMaterial(base_color, texture, 0));
-    pyramid->add_submesh(3, 6, new ColorMaterial(base_color, texture, 1));
-    pyramid->add_submesh(6, 9, new ColorMaterial(base_color, texture, 2));
-    pyramid->add_submesh(9, 12, new ColorMaterial(base_color, texture, 3));
-    pyramid->add_submesh(12, 18, new ColorMaterial(base_color, texture, 4));
+    pyramid->add_submesh(0, 3, new xe::ColorMaterial(base_color, texture, 0));
+    pyramid->add_submesh(3, 6, new xe::ColorMaterial(base_color, texture, 1));
+    pyramid->add_submesh(6, 9, new xe::ColorMaterial(base_color, texture, 2));
+    pyramid->add_submesh(9, 12, new xe::ColorMaterial(base_color, texture, 3));
+    pyramid->add_submesh(12, 18, new xe::ColorMaterial(base_color, texture, 4));
     add_submesh(pyramid);
 
     // PVM setup

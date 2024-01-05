@@ -1230,6 +1230,14 @@ build src/Engine/CMakeFiles/engine.dir/Material.cpp.o: CXX_COMPILER__engine_unsc
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
   OBJECT_FILE_DIR = src/Engine/CMakeFiles/engine.dir
 
+build src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.o: CXX_COMPILER__engine_unscanned_Debug /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Engine/mesh_loader.cpp || cmake_object_order_depends_target_engine
+  DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Engine\" -DPROJECT_NAME=\"Engine\" -DROOT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak\" -DXE_DEBUG
+  DEP_FILE = src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/3rdParty -I/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src -I/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/3rdParty/glad/glad_4_1/glad/include -I/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glfw-src/include -I/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/cmake-build-debug/_deps/glm-src -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks
+  OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
+  OBJECT_FILE_DIR = src/Engine/CMakeFiles/engine.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target engine
@@ -1238,7 +1246,7 @@ build src/Engine/CMakeFiles/engine.dir/Material.cpp.o: CXX_COMPILER__engine_unsc
 #############################################
 # Link the static library src/Engine/libengine.a
 
-build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o src/Engine/CMakeFiles/engine.dir/Material.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad
+build src/Engine/libengine.a: CXX_STATIC_LIBRARY_LINKER__engine_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Engine/CMakeFiles/engine.dir/Mesh.cpp.o src/Engine/CMakeFiles/engine.dir/Material.cpp.o src/Engine/CMakeFiles/engine.dir/mesh_loader.cpp.o || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = src/Engine/CMakeFiles/engine.dir
@@ -2668,7 +2676,7 @@ build src/Assignments/Textures/install/strip: phony src/Assignments/Textures/CMa
 #############################################
 # Order-only phony target for TexturesObjReader
 
-build cmake_object_order_depends_target_TexturesObjReader: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
+build cmake_object_order_depends_target_TexturesObjReader: phony || cmake_object_order_depends_target_application cmake_object_order_depends_target_engine cmake_object_order_depends_target_glad cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
 
 build src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/main.cpp.o: CXX_COMPILER__TexturesObjReader_unscanned_Debug /Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/TexturesObjReader/main.cpp || cmake_object_order_depends_target_TexturesObjReader
   DEFINES = -DMAJOR=4 -DMINOR=1 -DPROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/TexturesObjReader\" -DPROJECT_NAME=\"TexturesObjReader\" -DROOT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak\" -DXE_DEBUG
@@ -2694,9 +2702,9 @@ build src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/app.cpp
 #############################################
 # Link the executable src/Assignments/TexturesObjReader/TexturesObjReader
 
-build src/Assignments/TexturesObjReader/TexturesObjReader: CXX_EXECUTABLE_LINKER__TexturesObjReader_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/main.cpp.o src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a
+build src/Assignments/TexturesObjReader/TexturesObjReader: CXX_EXECUTABLE_LINKER__TexturesObjReader_Debug CMakeFiles/glad.dir/src/3rdParty/glad/glad_4_1/glad/src/gl.c.o src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/main.cpp.o src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir/app.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a src/Application/libapplication.a src/Engine/libengine.a /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a glad src/Application/libapplication.a src/Engine/libengine.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
+  LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  _deps/glm-build/glm/libglm.a  src/Application/libapplication.a  src/Engine/libengine.a  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  _deps/glfw-build/src/libglfw3.a  -framework Cocoa  -framework IOKit  -framework CoreFoundation  _deps/glm-build/glm/libglm.a
   OBJECT_DIR = src/Assignments/TexturesObjReader/CMakeFiles/TexturesObjReader.dir
   POST_BUILD = :
   PRE_LINK = :

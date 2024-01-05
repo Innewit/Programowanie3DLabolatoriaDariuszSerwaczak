@@ -11,6 +11,8 @@
 
 namespace xe {
 
+    GLuint create_texture(const std::string &name);
+
     struct SubMesh {
         SubMesh(GLuint start, GLuint end) : start(start), end(end) {}
 
@@ -45,6 +47,13 @@ namespace xe {
 
         void draw() const;
 
+        void *map_vertex_buffer();
+
+        void unmap_vertex_buffer();
+
+        void *map_index_buffer();
+
+        void unmap_index_buffer();
     private:
 
         GLuint vao_;

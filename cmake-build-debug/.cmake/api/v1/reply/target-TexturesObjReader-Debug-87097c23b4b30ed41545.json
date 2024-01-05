@@ -33,13 +33,19 @@
 				"parent" : 0
 			},
 			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
 				"file" : 1
 			},
 			{
 				"command" : 1,
 				"file" : 1,
 				"line" : 161,
-				"parent" : 2
+				"parent" : 3
 			},
 			{
 				"file" : 2
@@ -48,13 +54,13 @@
 				"command" : 2,
 				"file" : 2,
 				"line" : 32,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 33,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 2,
@@ -66,31 +72,31 @@
 				"command" : 2,
 				"file" : 2,
 				"line" : 5,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 19,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 3,
 				"file" : 2,
 				"line" : 16,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 3,
 				"file" : 2,
 				"line" : 17,
-				"parent" : 4
+				"parent" : 5
 			},
 			{
 				"command" : 3,
 				"file" : 2,
 				"line" : 40,
-				"parent" : 4
+				"parent" : 5
 			}
 		]
 	},
@@ -106,27 +112,27 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"define" : "MAJOR=4"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"define" : "MINOR=1"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"define" : "PROJECT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/Assignments/TexturesObjReader\""
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"define" : "PROJECT_NAME=\"TexturesObjReader\""
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"define" : "ROOT_DIR=\"/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak\""
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 10,
 					"define" : "XE_DEBUG"
 				}
 			],
@@ -141,15 +147,15 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 10,
+					"backtrace" : 11,
 					"path" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/3rdParty"
 				},
 				{
-					"backtrace" : 11,
+					"backtrace" : 12,
 					"path" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 13,
 					"path" : "/Users/dariusz_serwaczak/CLionProjects/Programowanie3DLabolatoriaDariuszSerwaczak/src/3rdParty/glad/glad_4_1/glad/include"
 				},
 				{
@@ -194,6 +200,10 @@
 		{
 			"backtrace" : 1,
 			"id" : "application::@63f4a4cc0e32de8c050b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "engine::@57eeced369f002faad1a"
 		}
 	],
 	"id" : "TexturesObjReader::@2288b9e0bc71757ac891",
@@ -230,6 +240,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "src/Engine/libengine.a",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 1,
 				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd",
 				"role" : "libraries"
@@ -240,17 +255,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-framework Cocoa",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-framework IOKit",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 3,
+				"backtrace" : 4,
 				"fragment" : "-framework CoreFoundation",
 				"role" : "libraries"
 			},
