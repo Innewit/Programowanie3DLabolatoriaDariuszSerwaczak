@@ -12,6 +12,11 @@ layout(std140, binding=1) uniform Transformations {
     mat4 PVM;
 };
 
+layout(std140, binding=2) uniform PhongViewSpaceTransform {
+    mat4 VM;
+    mat3 N;
+};
+
 out vec2 vertex_texcoords;
 out vec3 vertex_normals_in_vs;
 out vec3 vertex_coords_in_vs;
@@ -20,7 +25,7 @@ void main() {
     vertex_texcoords = a_vertex_texcoords;
     gl_Position =  PVM * a_vertex_position;
 
-    vertex_normals_in_vs = normalize(a_vertex_normals);
+    vertex_normals_in_vs = normalize(N * a_vertex_normals);
 
-    vertex_coords_in_vs = a_vertex_position.xyz;
+    vertex_coords_in_vs = (VM * a_vertex_position).xyz/(VM * a_vertex_position).w;
 }

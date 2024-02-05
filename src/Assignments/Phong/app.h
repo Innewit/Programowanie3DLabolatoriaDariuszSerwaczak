@@ -79,4 +79,6 @@ private:
     GLuint u_pvm_buffer_;
 
     std::vector<Mesh*> meshes_;
+
+    GLuint phong_vs_transformations;
 };

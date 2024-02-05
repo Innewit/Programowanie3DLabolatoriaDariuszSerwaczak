@@ -56,6 +56,13 @@ void SimpleShapeApplication::init() {
     glm::mat4 PVM = camera_->projection() * camera_->view();
     glBindBuffer(GL_UNIFORM_BUFFER, u_pvm_buffer_);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::mat4), glm::value_ptr(PVM));
+
+    // Phong view space transformations
+    glGenBuffers(1, &phong_vs_transformations);
+    glBindBuffer(GL_UNIFORM_BUFFER, phong_vs_transformations);
+    glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4) + sizeof(glm::mat3), nullptr, GL_STATIC_DRAW);
+    glBindBufferBase(GL_UNIFORM_BUFFER, 2, phong_vs_transformations);
+
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
     GLuint bindingPoint = 1;
@@ -74,6 +81,16 @@ void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
 }
 
 void SimpleShapeApplication::frame() {
+    // Phong - View space transformations
+    auto VM = camera_->view() * glm::mat4(1.0f);
+    auto R = glm::mat3(VM);
+    auto N = glm::mat3(glm::cross(R[1], R[2]), glm::cross(R[2], R[0]), glm::cross(R[0], R[1]));
+
+    glBindBuffer(GL_UNIFORM_BUFFER, phong_vs_transformations);
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(VM), &VM);
+    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(VM), sizeof(N), &N);
+    ////
+
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
 
