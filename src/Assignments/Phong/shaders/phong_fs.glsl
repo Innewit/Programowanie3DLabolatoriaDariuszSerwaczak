@@ -11,10 +11,12 @@ layout(std140, binding=0) uniform Modifiers {
 };
 
 in vec2 vertex_texcoords;
+in vec3 vertex_normals_in_vs;
+in vec3 vertex_coords_in_vs;
 
 uniform sampler2D map_Kd;
 
 void main() {
     vFragColor = Kd;
-
+    vFragColor.rgb = abs(vertex_coords_in_vs);
 }
