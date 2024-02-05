@@ -159,3 +159,10 @@ C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cm
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/TexturesObjReader/CMakeFiles/install.dir
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/TexturesObjReader/CMakeFiles/install/local.dir
 C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/TexturesObjReader/CMakeFiles/install/strip.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/Phong.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/edit_cache.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/rebuild_cache.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/list_install_components.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/install.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/install/local.dir
+C:/Users/serwa/OneDrive/Pulpit/Programowanie3DLabolatoria/Programowanie3DLaby/cmake-build-debug/src/Assignments/Phong/CMakeFiles/install/strip.dir

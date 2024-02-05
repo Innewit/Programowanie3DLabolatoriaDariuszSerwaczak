@@ -8,6 +8,7 @@
 #include <glm/glm.hpp>
 
 #include "Application/utils.h"
+#include "Material.h"
 
 namespace xe {
 
