@@ -12,6 +12,11 @@
 #include "Engine/texture.cpp"
 #include "ObjectReader/obj_reader.cpp"
 
+struct SceneLights {
+    PointLight light[24];
+    int num_lights;
+};
+
 void SimpleShapeApplication::init() {
     set_camera(new Camera);
     set_controler(new CameraControler(camera(), 0.01));
@@ -63,26 +68,20 @@ void SimpleShapeApplication::init() {
     glBindBufferBase(GL_UNIFORM_BUFFER, 2, phong_vs_transformations);
 
     // Point Lights
-    auto light_1 = new PointLight({ 0.0, 0.0, 1.0 }, { 1.0, 1.0, 0.0 }, 1.0, 1.0);
-    add_light(*light_1);
-    add_ambient({ 1.0f, 0.1f, 0.1f });
+    add_light(*new PointLight({ 0.0, 0.2, 0.4 }, { 1.0, 0.0, 0.0 }, { 1.0, 1.0, 1.0 }));
+    add_light(*new PointLight({ -0.2, -0.2, 0.4 }, { 0.0, 1.0, 0.0 }, { 1.0, 1.0, 1.0 }));
+    add_light(*new PointLight({ 0.2, -0.2, 0.4 }, { 0.0, 0.0, 1.0 }, { 1.0, 1.0, 1.0 }));
+    xe::PhongMaterial::set_ambient({ 0.2f, 0.2f, 0.2f });
 
-    auto* lights_count = new unsigned int(p_lights_.size());
-    auto MAX_POINT_LIGHTS = 24;
-    GLsizeiptr lightsSize = sizeof(glm::vec3) + sizeof(unsigned int) + MAX_POINT_LIGHTS * sizeof(PointLight);
     glGenBuffers(1, &phong_lights_buffer);
     glBindBuffer(GL_UNIFORM_BUFFER, phong_lights_buffer);
-    glBufferData(GL_UNIFORM_BUFFER, lightsSize, nullptr, GL_STATIC_DRAW);
-
-    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::vec3), &ambient_);
-    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(glm::vec3), sizeof(unsigned int), lights_count);
-    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(glm::vec3) + sizeof(unsigned int),  24 * sizeof(PointLight), p_lights_.data());
-
-    GLuint lightBindingPoint = 3;
-    glBindBufferBase(GL_UNIFORM_BUFFER, lightBindingPoint, phong_lights_buffer);
-    ////
+    glBufferData(GL_UNIFORM_BUFFER, sizeof(SceneLights), nullptr, GL_STATIC_DRAW);
 
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
+
+    glBindBufferBase(GL_UNIFORM_BUFFER, 3, phong_lights_buffer);
+    glBindBuffer(GL_UNIFORM_BUFFER, phong_lights_buffer);
+    ////
 
     GLuint bindingPoint = 1;
     GLuint blockIndex = glGetUniformBlockIndex(program, "Transformations");
@@ -108,6 +107,16 @@ void SimpleShapeApplication::frame() {
     glBindBuffer(GL_UNIFORM_BUFFER, phong_vs_transformations);
     glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(VM), &VM);
     glBufferSubData(GL_UNIFORM_BUFFER, sizeof(VM), sizeof(N), &N);
+    ////
+
+    // Lights
+    glBindBuffer(GL_UNIFORM_BUFFER, phong_lights_buffer);
+    SceneLights scene_lights{};
+    scene_lights.num_lights = p_lights_.size();
+
+    for(int i = 0; i < scene_lights.num_lights; i++) scene_lights.light[i] = p_lights_[i];
+
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(SceneLights), &scene_lights);
     ////
 
     glEnable(GL_DEPTH_TEST);

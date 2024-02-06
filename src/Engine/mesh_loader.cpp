@@ -6,8 +6,6 @@
 
 #include "mesh_loader.h"
 
-#include <memory>
-
 #include "glm/gtx/string_cast.hpp"
 #include "glm/gtc/type_ptr.hpp"
 
@@ -87,6 +85,9 @@ namespace xe {
         }
         if (smesh.has_normals) {
             mesh->vertex_attrib_pointer(xe::sMesh::MAX_TEXCOORDS + 1, 3, GL_FLOAT, stride, offset);
+            auto v_offset = offset;
+            for (auto i = 0; i < smesh.vertex_normals.size(); i++, v_offset += stride)
+                std::memcpy(v_ptr + v_offset, glm::value_ptr(smesh.vertex_normals[i]), sizeof(glm::vec3));
             offset += 3 * sizeof(GLfloat);
         }
 
@@ -149,9 +150,17 @@ namespace xe {
             glm::vec4 color;
             for (int i = 0; i < 3; i++)
                 color[i] = mat.diffuse[i];
+            float specular_strength = mat.shininess;
             color[3] = 1.0;
+
+            glm::vec3 specular_light;
+            glm::vec3 ambient_light;
+            for (int i = 0; i < 3; i++) {
+                specular_light[i] = mat.specular[i];
+                ambient_light[i] = mat.ambient[i];
+            }
             std::cout << "Adding PhongMaterial {}" << glm::to_string(color);
-            auto material = new xe::PhongMaterial(color);
+            auto material = new xe::PhongMaterial(color, ambient_light, specular_light, specular_strength);
             if (!mat.diffuse_texname.empty()) {
                 auto texture = xe::create_texture(mtl_dir + "/" + mat.diffuse_texname);
                 std::cout << "Adding Texture {} {:1d}" << mat.diffuse_texname << texture;

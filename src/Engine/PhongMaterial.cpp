@@ -9,10 +9,10 @@
 #include <glad/gl.h>
 
 namespace xe {
-
-    GLuint PhongMaterial::color_uniform_buffer_ = 0u;
     GLint  PhongMaterial::uniform_map_Kd_location_ = 0;
     GLuint PhongMaterial::shader_ = 0u;
+    GLuint PhongMaterial::material_uniform_buffer_ = 0u;
+    GLint PhongMaterial::uniform_ambient_location_ = 0;
 
     void PhongMaterial::bind() {
         glUseProgram(program());
@@ -23,10 +23,15 @@ namespace xe {
             OGL_CALL(glBindTexture(GL_TEXTURE_2D, texture_));
             use_map_Kd  = 1;
         }
-        OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 0, color_uniform_buffer_));
-        glBindBuffer(GL_UNIFORM_BUFFER, color_uniform_buffer_);
-        glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::vec4), &Kd_[0]);
-        glBufferSubData(GL_UNIFORM_BUFFER, 4 * sizeof(float), sizeof(GLint), &use_map_Kd);
+        OGL_CALL(glBindBufferBase(GL_UNIFORM_BUFFER, 0, material_uniform_buffer_));
+        glBindBuffer(GL_UNIFORM_BUFFER, material_uniform_buffer_);
+
+        auto vec4size = sizeof(glm::vec4);
+        glBufferSubData(GL_UNIFORM_BUFFER, 0, vec4size, &Kd_[0]);
+        glBufferSubData(GL_UNIFORM_BUFFER, vec4size, sizeof(glm::vec3), &Ks_[0]);
+        glBufferSubData(GL_UNIFORM_BUFFER, 2 * vec4size, vec4size, &Ka_[0]);
+        glBufferSubData(GL_UNIFORM_BUFFER, 3 * vec4size, sizeof(GLint), &use_map_Kd);
+        glBufferSubData(GL_UNIFORM_BUFFER, 3 * vec4size + sizeof(float), sizeof(GLfloat), &Ns);
         OGL_CALL(glBindBuffer(GL_UNIFORM_BUFFER, 0u));
     }
 
@@ -42,10 +47,10 @@ namespace xe {
 
         shader_ = program;
 
-        glGenBuffers(1, &color_uniform_buffer_);
+        glGenBuffers(1, &material_uniform_buffer_);
 
-        glBindBuffer(GL_UNIFORM_BUFFER, color_uniform_buffer_);
-        glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::vec4) + sizeof(GLint), nullptr, GL_STATIC_DRAW);
+        glBindBuffer(GL_UNIFORM_BUFFER, material_uniform_buffer_);
+        glBufferData(GL_UNIFORM_BUFFER, 3 * sizeof(glm::vec4) + 2 * sizeof(float), nullptr, GL_STATIC_DRAW);
         glBindBuffer(GL_UNIFORM_BUFFER, 0u);
 #if __APPLE__
         auto u_modifiers_index = glGetUniformBlockIndex(shader_, "Color");
@@ -68,6 +73,10 @@ namespace xe {
         uniform_map_Kd_location_ = glGetUniformLocation(shader_, "map_Kd");
         if (uniform_map_Kd_location_ == -1) {
             std::cout << "Cannot get uniform {} location" << "map_Kd" << std::endl;
+        }
+        uniform_ambient_location_ = glGetUniformLocation(shader_, "ambient_light");
+        if (uniform_ambient_location_ == -1) {
+            std::cout << "Cannot get uniform {} location" << "ambient_light" << std::endl;
         }
 
     }

@@ -2,7 +2,7 @@
 // Created by Piotr Białas on 02/11/2021.
 //
 
-#include "Material.h"
+#include "ColorMaterial.h"
 
 #include "Application/utils.h"
 

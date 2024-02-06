@@ -8,6 +8,7 @@ add_library(engine
         Material.h
         ColorMaterial.h ColorMaterial.cpp
         PhongMaterial.h PhongMaterial.cpp
+        texture.h texture.cpp
         mesh_loader.h mesh_loader.cpp
 )
 
