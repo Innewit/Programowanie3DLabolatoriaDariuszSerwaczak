@@ -7,6 +7,7 @@ add_library(engine
         Mesh.h Mesh.cpp
         Material.h
         ColorMaterial.h ColorMaterial.cpp
+        PhongMaterial.h PhongMaterial.cpp
         mesh_loader.h mesh_loader.cpp
 )
 

@@ -10,6 +10,7 @@
 #include "Application/utils.h"
 #include "Engine/Mesh.h"
 #include "Engine/Material.h"
+#include "Engine/Light.h"
 
 #include <glm/glm.hpp>
 #include "glad/gl.h"
@@ -63,6 +64,14 @@ public:
         }
     }
 
+    void add_light(const xe::PointLight &p_light) {
+        p_lights_.push_back(p_light);
+    }
+
+    void add_ambient(glm::vec3 ambient) {
+        ambient_ = ambient;
+    }
+
     void add_submesh(Mesh *mesh) {
         meshes_.push_back(mesh);
     }
@@ -81,4 +90,8 @@ private:
     std::vector<Mesh*> meshes_;
 
     GLuint phong_vs_transformations;
+    GLuint phong_lights_buffer;
+
+    glm::vec3 ambient_;
+    std::vector<xe::PointLight> p_lights_;
 };

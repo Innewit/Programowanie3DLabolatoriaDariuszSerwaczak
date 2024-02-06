@@ -13,6 +13,7 @@
 
 #include "ObjectReader/obj_reader.h"
 #include "Material.h"
+#include "Engine/ColorMaterial.cpp"
 #include "Engine/PhongMaterial.cpp"
 #include "Mesh.h"
 #include "texture.h"

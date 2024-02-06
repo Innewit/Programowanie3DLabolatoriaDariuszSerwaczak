@@ -8,7 +8,6 @@
 #include <glm/gtc/type_ptr.hpp>
 #include "Application/utils.h"
 #include "Engine/mesh_loader.cpp"
-#include "Engine/ColorMaterial.cpp"
 #include "Engine/Mesh.cpp"
 #include "Engine/texture.cpp"
 #include "ObjectReader/obj_reader.cpp"
@@ -62,6 +61,26 @@ void SimpleShapeApplication::init() {
     glBindBuffer(GL_UNIFORM_BUFFER, phong_vs_transformations);
     glBufferData(GL_UNIFORM_BUFFER, sizeof(glm::mat4) + sizeof(glm::mat3), nullptr, GL_STATIC_DRAW);
     glBindBufferBase(GL_UNIFORM_BUFFER, 2, phong_vs_transformations);
+
+    // Point Lights
+    auto light_1 = new PointLight({ 0.0, 0.0, 1.0 }, { 1.0, 1.0, 0.0 }, 1.0, 1.0);
+    add_light(*light_1);
+    add_ambient({ 1.0f, 0.1f, 0.1f });
+
+    auto* lights_count = new unsigned int(p_lights_.size());
+    auto MAX_POINT_LIGHTS = 24;
+    GLsizeiptr lightsSize = sizeof(glm::vec3) + sizeof(unsigned int) + MAX_POINT_LIGHTS * sizeof(PointLight);
+    glGenBuffers(1, &phong_lights_buffer);
+    glBindBuffer(GL_UNIFORM_BUFFER, phong_lights_buffer);
+    glBufferData(GL_UNIFORM_BUFFER, lightsSize, nullptr, GL_STATIC_DRAW);
+
+    glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(glm::vec3), &ambient_);
+    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(glm::vec3), sizeof(unsigned int), lights_count);
+    glBufferSubData(GL_UNIFORM_BUFFER, sizeof(glm::vec3) + sizeof(unsigned int),  24 * sizeof(PointLight), p_lights_.data());
+
+    GLuint lightBindingPoint = 3;
+    glBindBufferBase(GL_UNIFORM_BUFFER, lightBindingPoint, phong_lights_buffer);
+    ////
 
     glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
